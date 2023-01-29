@@ -1,95 +1,195 @@
 .social-media-div {
-  font-size: 2em;
+  /* font-size: 2em; */
+  display: flex;
+  gap: 5px;
 }
 
-.icon-button i {
-  color: white;
-}
-.icon-button {
-  margin-bottom: 10px;
+.social-icon {
+  height: 40px;
+  width: 40px;
+  /* padding: 5px; */
+  border-radius: 40px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.icon-button i {
-  border-radius: 2.6rem;
-  cursor: pointer;
+.social-icon svg,
+.social-icon img {
+  border-radius: 40px;
   display: inline-block;
-  font-size: 1.3rem;
-  height: 2.6rem;
-  line-height: 2.6rem;
-  margin: 0 5px;
+  height: max-content;
   position: relative;
+  padding: 5px;
   text-align: center;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  width: 2.6rem;
-  margin-bottom: 10px;
 }
 
-.linkedin i {
+.linkedin {
+  background-color: #0e76a8;
+}
+
+.linkedin svg {
   background-color: #0e76a8;
   transition: all 0.2s ease-in-out;
 }
 
-.linkedin i:hover {
-  color: rgba(255, 255, 255, 1);
+.linkedin svg:hover {
+  /* color: rgba(255, 255, 255, 1); */
   box-shadow: 0 5px 15px #0e76a8;
 }
 
-.github i {
+.github svg {
   background-color: #333;
   transition: all 0.2s ease-in-out;
 }
 
-.github i:hover {
-  color: rgba(255, 255, 255, 1);
+.github svg:hover {
+  /* color: rgba(255, 255, 255, 1); */
   box-shadow: 0 5px 15px #333;
 }
 
-.gitlab i {
-  background-color: #ffcc52;
+.google .mail-img {
+  position: absolute;
+  z-index: 2;
+  background-color: #ff7979;
   transition: all 0.2s ease-in-out;
 }
 
-.gitlab i:hover {
-  color: rgba(255, 255, 255, 1);
-  box-shadow: 0 5px 15px #333;
-}
-
-.google i {
-  background-color: #ea4335;
+.google .mail-gif {
+  background-color: #ff7979;
   transition: all 0.2s ease-in-out;
 }
 
-.google i:hover {
-  color: rgba(255, 255, 255, 1);
-  box-shadow: 0 5px 15px #ea4335;
+.google:hover {
+  box-shadow: 0 5px 15px #ff6c6c;
 }
 
-.twitter i {
+.google .mail-img:hover {
+  /* color: rgba(255, 255, 255, 1); */
+  opacity: 0;
+  /* box-shadow: 0 5px 15px #333; */
+}
+
+.google-icon{
+  width: 40px;
+  height: auto;
+}
+
+.twitter svg {
   background-color: #1da1f2;
   transition: all 0.2s ease-in-out;
 }
 
-.twitter i:hover {
-  color: rgba(255, 255, 255, 1);
+.twitter svg:hover {
+  /* color: rgba(255, 255, 255, 1); */
   box-shadow: 0 5px 15px #1da1f2;
 }
 
-.instagram i {
-  background-color: #e4405f;
-  transition: all 0.2s ease-in-out;
+/*
+---------------------------
+   LINKEDIN MICROANIMATION
+---------------------------
+*/
+
+.linkedin-icon {
+  /* margin-left: 15px; */
+  width: 35px;
+  height: 40px !important;
+  fill: white;
+}
+.linkedin-icon:hover .linkedin-icon > rect{
+  animation: rect-up 0.3s linear infinite;
 }
 
-.instagram i:hover {
-  color: rgba(255, 255, 255, 1);
-  box-shadow: 0 5px 15px #e4405f;
+
+@keyframes rect-up {
+  50% {
+      y:10px;
+      height:11px;
+   }
+  0%{
+      y:13px;
+      height:8px;  
+      }
+  
 }
+
+.linkedin:hover .linkedin-icon> circle{
+  animation: bounce 0.4s linear infinite;
+}
+
+@keyframes bounce {
+  75% {
+      cy: 8px;
+   }
+   50%{
+      cy: 4px
+   }
+  0%{
+      cy:4px
+      }
+  
+}
+/*
+---------------------------
+   TWITTER MICROANIMATION
+---------------------------
+*/
+.twitter-icon{
+  width: 40px;
+}
+
+.twitter-icon:hover #wing1{
+      transform-origin:center;
+      animation: flap 0.4s ease-out infinite alternate;
+   }	
+   
+.twitter-icon:hover #wing2{
+    transform-origin:center;
+    animation: flap 0.4s ease-in infinite alternate;
+ }		
+
+@keyframes flap{
+     50%{
+      transform:scaleX(-1) rotate(-45deg) translate(-40px,-40px);
+     }
+   }
+
+/*
+--------------------------
+   GITHUB MICROANIMATION
+--------------------------
+*/
+/* html[light-mode="dark"] .github-icon{
+  fill: #ffff;
+} */
+
+.github-icon {
+  width: 40px;
+  /* margin-left: 12px; */
+  /* margin-top: 5px; */
+  fill: #ffffff;
+}
+
+.github-icon:hover #arm {
+  transform-origin: bottom right;
+  animation: moveArm 1s infinite alternate;
+}
+
+@keyframes moveArm {
+  0% { transform: rotate(10deg); }
+  100% { transform: rotate(-10deg); }
+ }
+
 
 /* Media Query */
 @media (max-width: 768px) {
   .social-media-div {
-    text-align: center;
+    justify-content: center;
+    align-items: center;
   }
 }

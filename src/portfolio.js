@@ -9,11 +9,13 @@ const settings = {
 
 //Home Page
 const greeting = {
-  title: "Hello 👋.",
-  title2: "Sumit",
+  title: "Hi",
+  title2: " I'm Sumit Sharma",
   logo_name: "Sumit Sharma",
   // nickname: "harry / picleric",
   full_name: "Sumit Sharma",
+  subTitle1: "Full Stack Developer.",
+  subTitle2: "Life Long Learner.",
   subTitle:
     "Full Stack Developer, Machine Learning Practitioner, Open Source Enthusiast, Life Long Learner.",
   resumeLink:

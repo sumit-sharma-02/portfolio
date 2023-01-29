@@ -44,7 +44,7 @@
 .header .logo {
   display: block;
   float: left;
-  font-size: 1.5em;
+  font-size: 2em;
   text-decoration: none;
   margin-top: 10px;
   line-height: normal;
@@ -71,6 +71,7 @@
 .header .menu {
   clear: both;
   max-height: 0;
+  /* width: max-content; */
   /* display: flex;
   align-items: center; */
   transition: max-height 0.2s ease-out;
@@ -123,6 +124,11 @@
 
 .header .menu-btn:checked ~ .menu {
   max-height: 370px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon {

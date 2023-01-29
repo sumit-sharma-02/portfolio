@@ -19,7 +19,7 @@
 }
 
 .greeting-main > * {
-  flex: 1;
+  /* flex: 1; */
   margin-bottom: 30px;
 }
 
@@ -31,7 +31,6 @@
 .greeting-text {
   margin-top: 110px;
   font-size: 70px;
-  line-height: 5px;
   font-family: "Google Sans Bold";
 }
 
@@ -41,15 +40,31 @@
   font-family: "Google Sans Bold Italic";
 }
 
-.greeting-text-p {
-  font-size: 30px;
-  line-height: 40px;
-  margin-right: 40px;
+.greeting-text-div {
+  font-size: 40px;
+  margin-bottom: 40px;
+  display: inline-flex;
+  /* margin-right: 40px; */
   font-family: "Google Sans Medium";
+}
+
+.greeting-text-static {
+  margin-right: 5px;
 }
 
 .greeting-image-div > * {
   max-width: 100%;
+  height: auto;
+}
+
+.greeting-image-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.greeting-hand-wave {
+  width: 70px;
   height: auto;
 }
 
@@ -58,7 +73,7 @@
   color: rgba(255, 255, 255, 1);
   padding: 15px 15px;
   margin-top: 25px;
-  border-radius: 4px;
+  border-radius: 40px;
   border-width: 0px;
   margin-bottom: 20px;
   width: 200px;
@@ -76,35 +91,59 @@
     font-size: 50px;
   }
 
-  .greeting-text-p {
-    font-size: 20px;
+  .greeting-hand-wave {
+    width: 50px;
+  }
+
+  .greeting-text-div {
+    font-size: 30px;
+    margin-bottom: 20px;
+    /* text-align: center; */
   }
 
   .greet-main {
     max-width: 900px;
   }
 }
+
 @media (max-width: 768px) {
   .button-greeting-div {
     justify-content: space-around;
   }
+
   .greeting-text {
     font-size: 30px;
     margin-top: 0px;
     text-align: center;
   }
+
+  .greeting-text-container {
+    text-align: center;
+  }
+
+  .greeting-hand-wave {
+    width: 30px;
+  }
+
   .greeting-nickname {
     font-size: 25px;
     text-align: center;
   }
-  .greeting-text-p {
-    font-size: 16px;
+
+  .greeting-text-div {
+    font-size: 20px !important;
     margin-right: 0px;
     line-height: normal;
-    text-align: center;
+    margin-bottom: 20px;
+    /* text-align: center; */
   }
+
   .greeting-main {
-    display: block;
+    /* display: block; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .portfolio-repo-btn-div {
