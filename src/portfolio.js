@@ -10,31 +10,29 @@ const settings = {
 //Home Page
 const greeting = {
   title: "Hello 👋.",
-  title2: "Vedansh",
-  logo_name: "vedansh.v()",
+  title2: "Sumit",
+  logo_name: "Sumit Sharma",
   // nickname: "harry / picleric",
-  full_name: "Vedansh Vijaywargiya",
+  full_name: "Sumit Sharma",
   subTitle:
     "Full Stack Developer, Machine Learning Practitioner, Open Source Enthusiast, Life Long Learner.",
   resumeLink:
     "https://drive.google.com/file/d/1wrkG62HyDgbUOjNxexCT891tcqd83_cK/view?usp=sharing",
-  mail: "mailto:im.vedanshvijay2002@gmail.com",
+  mail: "mailto:sumitsharma9968@gmail.com",
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/vvHacker007/",
-  linkedin: "https://www.linkedin.com/in/vedansh-vijaywargiya/",
-  gmail: "im.vedanshvijay2002@gmail.com",
-  // gitlab: "https://gitlab.com/harikanani",
-  facebook: "https://www.facebook.com/vedansh.vijaywargiya/",
-  twitter: "https://twitter.com/vedansh_v_/",
-  instagram: "https://www.instagram.com/vedv_2002/",
+  github: "https://github.com/sumit-sharma-02",
+  linkedin: "https://www.linkedin.com/in/sumitsharma002",
+  gmail: "sumitsharma9968@gmail.com",
+  twitter: "https://twitter.com/sumitsharma002",
 };
 
 const skills = {
   data: [
     {
+      _id: "354c54b7-ffd8-40f1-972f-1d006733df25",
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
@@ -216,6 +214,7 @@ const skills = {
       ],
     },
     {
+      _id: "c026fe64-1542-42b0-84ab-9311840c169f",
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [

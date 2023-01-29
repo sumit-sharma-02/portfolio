@@ -13,11 +13,11 @@ const engine = new Styletron();
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
+  <React.Fragment>
     <StyletronProvider value={engine}>
       <BaseProvider theme={LightTheme}>
         <App />
       </BaseProvider>
     </StyletronProvider>
-  </React.StrictMode>
+  </React.Fragment>
 );

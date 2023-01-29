@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import { ThemeProvider } from "styled-components";
+import { themes } from "./theme";
+import { GlobalStyles } from "./global";
+import { CursorProvider } from "react-cursor-custom";
+import { settings } from "./portfolio";
+import Main from "./containers/Main";
+import "./App.css";
 
 function App() {
+  const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");
+  const useCursor = settings.useCustomCursor;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={themes[theme]}>
+      <>
+        <GlobalStyles />
+        <div>
+          {useCursor ? (
+            <CursorProvider
+              color={themes[theme].secondaryText}
+              ringSize={25}
+              transitionTime={75}
+            >
+              <Main theme={themes[theme]} setTheme={setTheme} />
+            </CursorProvider>
+          ) : (
+            <Main theme={themes[theme]} setTheme={setTheme} />
+          )}
+        </div>
+      </>
+    </ThemeProvider>
   );
 }
 
