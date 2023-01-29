@@ -61,7 +61,7 @@ export default function Greeting(props) {
                   }}
                 />
               </div>
-              <SocialMedia theme={theme} />
+              <SocialMedia page="home" />
               <div className="portfolio-repo-btn-div">
                 <button
                   {...styles}

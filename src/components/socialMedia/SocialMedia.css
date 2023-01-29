@@ -4,6 +4,13 @@
   gap: 5px;
 }
 
+.contact-social-media-div {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
 .social-icon {
   height: 40px;
   width: 40px;

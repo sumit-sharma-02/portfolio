@@ -5,9 +5,12 @@ import MailIconGIF from "../../assets/images/mail.gif";
 import "./SocialMedia.css";
 
 export default function socialMedia(props) {
-  const theme = props.theme;
   return (
-    <div className="social-media-div">
+    <div
+      className={`${
+        props.page === "home" ? "social-media-div" : "contact-social-media-div"
+      }`}
+    >
       <a
         href={socialMediaLinks.github}
         className="social-icon github"

@@ -16,10 +16,9 @@ const greeting = {
   full_name: "Sumit Sharma",
   subTitle1: "Full Stack Developer.",
   subTitle2: "Life Long Learner.",
-  subTitle:
-    "Full Stack Developer, Machine Learning Practitioner, Open Source Enthusiast, Life Long Learner.",
+  subTitle: "Full Stack Developer, Life Long Learner.",
   resumeLink:
-    "https://drive.google.com/file/d/1wrkG62HyDgbUOjNxexCT891tcqd83_cK/view?usp=sharing",
+    "https://drive.google.com/file/d/1lFqkZnNUg5N2muUuv6qIF6so6xloY6-4/view?usp=sharing",
   mail: "mailto:sumitsharma9968@gmail.com",
 };
 
@@ -312,8 +311,8 @@ const certifications = {
       subtitle: "Google Cloud Training",
       logo_path: "google_logo.png",
       certificate_link:
-        "https://drive.google.com/file/d/1r0hYt8Pp0N0u_4Tg-poMF1Qv3LkoKVAP/view",
-      alt_name: "MongoDB University",
+        "https://www.cloudskillsboost.google/public_profiles/345a17d9-689f-4154-a3d3-c0396c98b3bc",
+      alt_name: "GCP Training",
       // color_code: "#2AAFED",
       color_code: "#2AAFED",
     },
@@ -545,15 +544,15 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "profile_photo_2.jpeg",
+    profile_image_path: "portfolioProfileImage.png",
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },
   blogSection: {
-    title: "Blogs",
+    title: "Get in Touch",
     subtitle:
       "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others.",
-    link: "https://medium.com/@vedanshvijay/",
+    link: "https://medium.com/sumit-sharma-02/",
     avatar_image_path: "blogs_image.svg",
   },
 };

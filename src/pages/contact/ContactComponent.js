@@ -47,11 +47,17 @@ function Contact(props) {
               >
                 {ContactData["description"]}
               </p>
-              <SocialMedia />
+              <SocialMedia page="contact" />
               <br />
               <br />
-              <a {...styles} className="general-btn" href={greeting.resumeLink}>
-                See my Resume
+              <a
+                {...styles}
+                className="general-btn"
+                target="_blank"
+                rel="noopener noreferrer"
+                href={greeting.resumeLink}
+              >
+                Checkout My Résumé
               </a>
             </div>
           </div>
@@ -70,7 +76,7 @@ function Contact(props) {
               </p>
               <div className="blogsite-btn-div">
                 <a {...styles} className="general-btn" href={blogSection.link}>
-                  Medium Blogs
+                  Send
                 </a>
               </div>
             </div>
