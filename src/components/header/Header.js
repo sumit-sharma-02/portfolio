@@ -26,7 +26,7 @@ function Header(props) {
     transition: "all 0.2s ease-in-out",
     ":hover": {
       boxShadow: `0 3px 8px ${
-        props.theme.name === "light" ? "#F7D774" : "#646464"
+        props.theme.name === "light" ? "#fc10568f" : "#646464"
       }`,
     },
   });
@@ -64,7 +64,13 @@ function Header(props) {
 
   return (
     <Fade top duration={1000} distance="20px">
-      <div>
+      <div
+        className={`${
+          props.theme.name === "light"
+            ? "header-container-light"
+            : "header-container-dark"
+        }`}
+      >
         <header className="header">
           <NavLink to={link} tag={Link} className="logo">
             <span style={{ color: theme.text }}></span>
@@ -78,82 +84,56 @@ function Header(props) {
             <span className="navicon"></span>
           </label>
           <ul className="menu">
-            <li>
+            <li className="homei-li">
               <NavLink
-                className="homei"
+                className={({ isActive }) =>
+                  isActive ? "current-link" : "homei"
+                }
                 to="/home"
                 tag={Link}
-                style={({ isActive }) => {
-                  return {
-                    fontWeight: isActive ? "bold" : "normal",
-                    borderRadius: 5,
-                    color: theme.text,
-                  };
-                }}
+                style={{ color: theme.text }}
               >
                 Home
               </NavLink>
             </li>
             <li>
               <NavLink
-                className="ec"
+                className={({ isActive }) => (isActive ? "current-link" : "ec")}
                 to="/education"
                 tag={Link}
-                style={({ isActive }) => {
-                  return {
-                    fontWeight: isActive ? "bold" : "normal",
-                    borderRadius: 5,
-                    color: theme.text,
-                  };
-                }}
+                style={{ color: theme.text }}
               >
                 Education
               </NavLink>
             </li>
             <li>
               <NavLink
-                className="xp"
+                className={({ isActive }) => (isActive ? "current-link" : "xp")}
                 to="/experience"
                 tag={Link}
-                style={({ isActive }) => {
-                  return {
-                    fontWeight: isActive ? "bold" : "normal",
-                    borderRadius: 5,
-                    color: theme.text,
-                  };
-                }}
+                style={{ color: theme.text }}
               >
                 Experience
               </NavLink>
             </li>
             <li>
               <NavLink
-                className="projects"
+                className={({ isActive }) =>
+                  isActive ? "current-link" : "projects"
+                }
                 to="/projects"
                 tag={Link}
-                style={({ isActive }) => {
-                  return {
-                    fontWeight: isActive ? "bold" : "normal",
-                    borderRadius: 5,
-                    color: theme.text,
-                  };
-                }}
+                style={{ color: theme.text }}
               >
                 Projects
               </NavLink>
             </li>
             <li>
               <NavLink
-                className="cr"
+                className={({ isActive }) => (isActive ? "current-link" : "cr")}
                 to="/contact"
                 tag={Link}
-                style={({ isActive }) => {
-                  return {
-                    fontWeight: isActive ? "bold" : "normal",
-                    borderRadius: 5,
-                    color: theme.text,
-                  };
-                }}
+                style={{ color: theme.text }}
               >
                 Contact
               </NavLink>
