@@ -11,7 +11,7 @@ function DegreeCard(props) {
         <Flip left duration={2000}>
           <div
             className="card-img"
-            style={{ backgroundColor: theme.themeColor }}
+            // style={{ backgroundColor: theme.themeColor }}
           >
             <img
               style={{
@@ -28,7 +28,10 @@ function DegreeCard(props) {
       <Fade right duration={2000} distance="40px">
         <div
           className="card-body"
-          style={{ width: degree.logo_path ? "90%" : "100%" }}
+          style={{
+            width: degree.logo_path ? "90%" : "100%",
+            backgroundColor: theme.themeColor,
+          }}
         >
           <div
             className="body-header"

@@ -7,14 +7,19 @@ function CertificationCard(props) {
   const theme = props.theme;
   return (
     <Fade bottom duration={2000} distance="20px">
-      <div className="cert-card">
+      <div className="cert-card" style={{ backgroundColor: theme.themeColor }}>
         <div className="content">
           <a
             href={certificate.certificate_link}
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className="content-overlay"></div>
+            <div
+              className="content-overlay"
+              style={{
+                background: theme.name === "light" ? "#000000b3" : "#ffffffb3",
+              }}
+            ></div>
             <div
               className="cert-header"
               style={{ backgroundColor: certificate.color_code }}

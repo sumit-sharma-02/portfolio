@@ -5,10 +5,17 @@
   align-items: center;
   text-align: center;
   border: 1px solid #d9dbdf;
-  border-radius: 5px;
   box-shadow: 5px 5px 5px #d9dbdf;
+  border-radius: 7px;
   margin-bottom: 30px;
   flex: 0 0 30%;
+  transition: 0.6s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+  0.6s box-shadow,
+  0.6s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12) !important;
+}
+
+.cert-card:hover {
+  transform: scale(1.08) !important;
 }
 
 .cert-header {
@@ -42,12 +49,14 @@
 .content {
   position: relative;
   width: 100%;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
   margin: auto;
   overflow: hidden;
 }
 
 .content .content-overlay {
-  background: rgba(0, 0, 0, 0.7);
+  /* background: rgba(0, 0, 0, 0.7); */
   position: absolute;
   height: 99%;
   width: 100%;
