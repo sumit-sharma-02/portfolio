@@ -52,7 +52,7 @@ function Contact(props) {
               <br />
               <a
                 {...styles}
-                className="general-btn"
+                className="general-btn contact-btn"
                 target="_blank"
                 rel="noopener noreferrer"
                 href={greeting.resumeLink}

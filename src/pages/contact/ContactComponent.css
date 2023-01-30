@@ -148,6 +148,10 @@
   cursor: pointer;
 }
 
+.contact-btn {
+  padding: 15px 25px !important;
+}
+
 @media (max-width: 1380px) {
   .contact-heading-text {
     font-size: 50px;

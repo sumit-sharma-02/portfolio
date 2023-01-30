@@ -4,10 +4,11 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  border: 1px solid #d9dbdf;
   border-radius: 5px;
+  box-shadow: 5px 5px 5px #d9dbdf;
   margin-bottom: 30px;
   flex: 0 0 30%;
-  transition: all 0.2s ease-in-out;
 }
 
 .cert-header {
@@ -60,6 +61,10 @@
   transition: all 0.4s ease-in-out 0s;
 }
 
+.content:hover .content-overlay {
+  opacity: 1;
+}
+
 .content-details {
   position: absolute;
   text-align: center;
@@ -94,6 +99,9 @@
 
 .fadeIn-top {
   top: 20%;
+}
+
+@media (max-width: 1380px) {
 }
 
 @media (max-width: 768px) {
