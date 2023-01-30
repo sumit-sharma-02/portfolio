@@ -458,17 +458,6 @@ const experience = {
           color: "#4285F4",
         },
         {
-          title: "Campus Leader",
-          company: "Code For Cause",
-          company_url: "https://www.codecau.se/",
-          logo_path: "CFC.jfif",
-          duration: "Nov 2020 - Present",
-          location: "SRM IST Kattankulathur",
-          description:
-            "Held numerous workshops and distributed learning content for freshers. Contributed to development of the causefolio website displaying the information about the Code for Cause Community.",
-          color: "#a60000",
-        },
-        {
           title: "Machine Learning - Research associate",
           company: "Next Tech Lab",
           company_url: "https://nextech.io/",
