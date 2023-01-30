@@ -4,8 +4,10 @@ import { themes } from "./theme";
 import { GlobalStyles } from "./global";
 import { CursorProvider } from "react-cursor-custom";
 import { settings } from "./portfolio";
+import { TooltipProvider } from "react-tooltip";
 import Main from "./containers/Main";
 import "./App.css";
+import "react-tooltip/dist/react-tooltip.css";
 
 function App() {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");
@@ -22,7 +24,9 @@ function App() {
               ringSize={25}
               transitionTime={75}
             >
-              <Main theme={themes[theme]} setTheme={setTheme} />
+              <TooltipProvider>
+                <Main theme={themes[theme]} setTheme={setTheme} />
+              </TooltipProvider>
             </CursorProvider>
           ) : (
             <Main theme={themes[theme]} setTheme={setTheme} />

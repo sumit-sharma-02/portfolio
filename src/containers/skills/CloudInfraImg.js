@@ -169,7 +169,7 @@ export default function CloudInfraImg(props) {
         transform="translate(-167.6 -120.78)"
         fill="#fff"
       />
-      <g opacity="0.7">
+      {/* <g opacity="0.7">
         <rect
           x="682.04"
           y="387"
@@ -179,8 +179,55 @@ export default function CloudInfraImg(props) {
           ry="21.34"
           fill="url(#894cb520-7283-4f65-92a7-edb841614828)"
         />
-      </g>
+      </g> */}
+      {/* <svg
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+        aria-hidden="true"
+        focusable="false"
+        width="1em"
+        height="1em"
+        style={{ backgroundColor: "transparent", width: "1em", height: "1em" }}
+        preserveAspectRatio="xMidYMid meet"
+        viewBox="0 0 256 256"
+        className="iconify"
+        data-icon="skill-icons:gcp-dark"
+        data-inline="false"
+        transform="translate(650 320)"
+      > */}
+      {/* <g fill="none"> */}
       <rect
+        x="630.42"
+        y="380"
+        width="235"
+        height="200"
+        rx="21.34"
+        ry="21.34"
+        fill={theme.imageDark}
+      />
+      <path
+        fill="#EA4335"
+        transform="translate(620 350)"
+        d="m161.009 92.39l17.385-17.386l1.159-7.32c-31.68-28.807-82.04-25.54-110.6 6.816c-7.932 8.986-13.817 20.19-16.955 31.76l6.226-.878l34.77-5.733l2.684-2.745c15.466-16.986 41.617-19.272 59.475-4.82l5.856.305Z"
+      />
+      <path
+        fill="#4285F4"
+        transform="translate(620 350)"
+        d="M203.16 105.749a78.318 78.318 0 0 0-23.607-38.064l-24.4 24.4a43.37 43.37 0 0 1 15.921 34.404v4.331c11.993 0 21.716 9.722 21.716 21.715c0 11.994-9.723 21.473-21.716 21.473h-43.493l-4.27 4.636v26.047l4.27 4.087h43.493c31.195.243 56.681-24.605 56.924-55.8a56.483 56.483 0 0 0-24.838-47.229Z"
+      />
+      <path
+        fill="#34A853"
+        transform="translate(620 350)"
+        d="M84.149 208.778h43.432v-34.77H84.149a21.312 21.312 0 0 1-8.906-1.952l-6.161 1.891l-17.507 17.385l-1.525 5.917c9.818 7.413 21.796 11.582 34.099 11.529Z"
+      />
+      <path
+        fill="#FBBC05"
+        transform="translate(620 350)"
+        d="M84.149 95.989C52.953 96.175 27.815 121.615 28 152.81a56.486 56.486 0 0 0 22.049 44.438l25.193-25.193c-10.93-4.938-15.787-17.802-10.849-28.731c4.938-10.93 17.802-15.787 28.73-10.85a21.718 21.718 0 0 1 10.85 10.85l25.193-25.193a56.421 56.421 0 0 0-45.018-22.143Z"
+      />
+      {/* </g> */}
+      {/* </svg> */}
+      {/* <rect
         x="685.42"
         y="390"
         width="176"
@@ -203,7 +250,7 @@ export default function CloudInfraImg(props) {
         d="M1005.77,606.55c-2-2.59-13.31-1.25-18.44-.62-1.53.19-1.77-1.15-.38-2.16,9-6.32,23.8-4.5,25.53-2.39s-.48,17-8.91,24c-1.29,1.1-2.54.53-2-.91C1003.52,619.76,1007.78,609.08,1005.77,606.55Z"
         transform="translate(-167.6 -120.78)"
         fill="#f90"
-      />
+      /> */}
       <g opacity="0.7">
         <rect
           x="573.04"

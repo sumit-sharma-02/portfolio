@@ -21,3 +21,7 @@
 .software-skill-inline > i:hover {
   color: #645beb;
 }
+
+.software-skill-inline rect {
+  fill: transparent !important;
+}
