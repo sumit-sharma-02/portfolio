@@ -409,9 +409,9 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "Work and Apprenticeship",
   description:
-    "I've completed one internship. I've mostly done projects on my own and I am actively looking for internships. I love organizing workshops to share my knowledge with others.",
+    "I've over 2 years of experience as a full stack developer. I've worked on building products for multiple stakeholders in Infosys as well as my personal projects.",
   header_image_path: "experience.svg",
   sections: {
     title: "Work Experience",
@@ -422,10 +422,10 @@ const experience = {
         company_url: "https://www.infosys.com/",
         logo_path: "infosys-logo.png",
         alt_name: "infosys-logo",
-        duration: "November 2021 - Present",
+        duration: "(Nov, 2021 - Present)",
         location: "Remote",
         description:
-          "<li>Developed 2 new tools with an intuitive design in Lex (Learning platform for the employees of Infosys) for interactive content creation using Angular v12. Used by 150+ educators for creating new interactive courses, consumed by 1000+ learners.</li><li>Developed a web based AR/VR learning solution for the learners to enhance their learning experience in a classroom using open-source web framework A-frame and Networked A-frame. Implemented REST API using Node and Express, multi-user experience and other features like chat, screen, audio and video share.</li><li>Developed a PWA (Progressive Web Application) within Lex with an intuitive design for all the educators in Infosys for creating their own analogy with add on animations in their content using HTML, CSS, JavaScript and a open source library Fabric.js. Used by 200+ educators with 2000+ pages of content published in Lex.</li>",
+          "<li>Developed 2 new tools with an intuitive design in Lex (Learning platform for the employees of Infosys) for interactive content creation using Angular v12. Used by 150+ educators for creating new interactive courses, consumed by 1000+ learners.</li><br><li>Developed a web based AR/VR learning solution for the learners to enhance their learning experience in a classroom using open-source web framework A-frame and Networked A-frame. Implemented REST API using Node and Express, multi-user experience and other features like chat, screen, audio and video share.</li><br><li>Developed a PWA (Progressive Web Application) within Lex with an intuitive design for all the educators in Infosys for creating their own analogy with add on animations in their content using HTML, CSS, JavaScript and a open source library Fabric.js. Used by 200+ educators with 2000+ pages of content published in Lex.</li>",
         color: "#0071C5",
       },
       {
@@ -434,7 +434,7 @@ const experience = {
         company_url: "https://www.infosys.com/",
         logo_path: "infosys-logo.png",
         alt_name: "infosys-logo",
-        duration: "Augusts 2021 - November 2021",
+        duration: "(Aug, 2021 - Nov, 2021)",
         location: "Remote",
         description:
           "Worked on many Capstone projects using Spring Boot and Angular.",

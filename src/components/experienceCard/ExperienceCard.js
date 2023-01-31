@@ -10,7 +10,7 @@ function ExperienceCard(props) {
       <div className="experience-card-col experience-card-gap">
         <div
           className="experience-card experience-card-1"
-          style={{ backgroundColor: theme.themeColor }}
+          style={{ backgroundColor: "#0078bd" }}
         >
           <div className="experience-company-logo">
             <img
@@ -19,7 +19,13 @@ function ExperienceCard(props) {
               alt={experience.alt_name}
             />
           </div>
-          <article className="experience-card-body">
+          <article
+            className="experience-card-body"
+            style={{
+              backgroundColor: theme.themeColor,
+              color: theme.oppositeThemeColor,
+            }}
+          >
             <header>
               <div className="title">
                 <h3>{experience.title}</h3>
@@ -29,7 +35,12 @@ function ExperienceCard(props) {
                 <br />
                 <span className="author">{experience.duration}</span>
               </p>
-              <ol>{experience.description}</ol>
+              <ol
+                className="experience-card-description"
+                dangerouslySetInnerHTML={{
+                  __html: experience.description,
+                }}
+              ></ol>
             </header>
           </article>
         </div>
