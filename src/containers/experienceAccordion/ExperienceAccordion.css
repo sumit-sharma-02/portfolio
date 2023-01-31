@@ -1,14 +1,34 @@
 .experience-accord {
   margin: 50px;
   border-radius: 5px;
-  background-color: #1d1d1d;
-  border: 0.1px solid rgba(211, 211, 211, 0.397);
+  background-color: transparent;
+  /* border: 0.1px solid rgba(211, 211, 211, 0.397); */
   transition: all 0.2s ease-in-out;
 }
 
+.experience-container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.experience-cards {
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 550px) {
+  .experience-cards {
+    overflow: hidden;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
 .experience-accord:hover {
-  color: rgba(255, 255, 255, 1);
-  box-shadow: 0 5px 15px #e2405f;
+  /* color: rgba(255, 255, 255, 1); */
+  /* box-shadow: 0 5px 15px #e2405f; */
 }
 
 .accord-panel {

@@ -1,8 +1,7 @@
 import React from "react";
+import { DarkTheme, LightTheme, ThemeProvider } from "baseui";
 import ExperienceCard from "../../components/experienceCard/ExperienceCard.js";
 import "./ExperienceAccordion.css";
-import { Accordion, Panel } from "baseui/accordion";
-import { DarkTheme, LightTheme, ThemeProvider } from "baseui";
 
 function ExperienceAccordion(props) {
   const theme = props.theme;
@@ -10,27 +9,18 @@ function ExperienceAccordion(props) {
   return (
     <div className="experience-accord">
       <ThemeProvider theme={theme.name === "light" ? LightTheme : DarkTheme}>
-        <Accordion>
-          {props.sections.map((section, index) => {
+        <main className="experience-container experience-cards">
+          {props.sections["experiences"].map((experience, index) => {
             return (
-              <Panel
-                className="accord-panel"
-                title={section["title"]}
-                key={section["title"] + "-" + index}
-              >
-                {section["experiences"].map((experience, index) => {
-                  return (
-                    <ExperienceCard
-                      key={"experience-" + index}
-                      experience={experience}
-                      theme={theme}
-                    />
-                  );
-                })}
-              </Panel>
+              <ExperienceCard
+                key={"experience-" + index}
+                experience={experience}
+                theme={theme}
+              />
             );
           })}
-        </Accordion>
+        </main>
+        {/* </Accordion> */}
       </ThemeProvider>
     </div>
   );
