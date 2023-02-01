@@ -31,7 +31,7 @@ export default function ProjectCard({ repo, theme }) {
           {...styles}
           key={repo.id}
           onClick={() => openRepoinNewTab(repo.url)}
-          style={{ backgroundColor: theme.projectCard }}
+          style={{ backgroundColor: theme.themeColor }}
         >
           <div className="repo-name-div">
             <p className="repo-name" style={{ color: theme.text }}>
@@ -42,7 +42,7 @@ export default function ProjectCard({ repo, theme }) {
             {repo.description}
           </p>
           <div className="repo-details">
-            <ProjectLanguages logos={repo.languages} />
+            <ProjectLanguages logos={repo.languages} theme={theme} />
           </div>
         </div>
       </Fade>

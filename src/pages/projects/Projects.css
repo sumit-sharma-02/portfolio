@@ -3,6 +3,10 @@
   text-align: center;
 }
 
+.more-projects-btn {
+  padding: 15px 40px;
+}
+
 .basic-projects {
   margin-left: 5%;
   margin-right: 5%;

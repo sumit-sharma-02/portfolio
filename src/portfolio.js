@@ -124,6 +124,15 @@ const skills = {
           },
         },
         {
+          skillName: "Framer Motion",
+          fontAwesomeClassname: "logos:framer",
+          style: {
+            color: "#635BFF",
+            width: "1em",
+            height: "1em",
+          },
+        },
+        {
           skillName: "Styled Components",
           fontAwesomeClassname: "vscode-icons:file-type-styled",
           style: {
@@ -437,7 +446,7 @@ const experience = {
         duration: "(Aug, 2021 - Nov, 2021)",
         location: "Remote",
         description:
-          "Worked on many Capstone projects using Spring Boot and Angular.",
+          "Worked on multiple Capstone projects using Spring Boot and Angular.",
         color: "#4285F4",
       },
     ],
@@ -448,8 +457,173 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects make use of a vast variety of latest technology tools. My best experience is to create NodeJS Backend Projects, Python Scripts, and React Project. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
+    "My projects make use of a vast variety of latest technology tools. My best experience is to create MERN and MEAN Stack Projects. Below are some of my projects.",
   avatar_image_path: "projects_image.svg",
+};
+
+const projects = {
+  data: [
+    {
+      id: "project-0",
+      name: "Crafty Commerce",
+      url: "https://crafty-commerce.vercel.app/",
+      repoUrl: "https://github.com/sumit-sharma-02/crafty-commerce",
+      description:
+        "Crafty Commerce is a full stack e-commerce web application that allows you to purchase different categories of product online. You can apply filters accordingly and find your favourite products in crafty commerce. You can pay with debit/credit cards and in just few click your product will be delivered.",
+      languages: [
+        {
+          name: "React",
+          iconifyClass: "logos:react",
+        },
+        {
+          name: "Redux",
+          iconifyClass: "logos:redux",
+        },
+        {
+          name: "Express",
+          iconifyClass: "simple-icons:express",
+        },
+        {
+          name: "Nodejs",
+          iconifyClass: "logos:nodejs",
+        },
+        {
+          name: "MongoDB",
+          iconifyClass: "vscode-icons:file-type-mongo",
+        },
+        {
+          name: "Tailwind",
+          iconifyClass: "vscode-icons:file-type-tailwind",
+        },
+        {
+          name: "Cloudinary",
+          iconifyClass: "logos:cloudinary-icon",
+        },
+        {
+          name: "Stripe",
+          iconifyClass: "logos:stripe",
+        },
+        {
+          name: "Framer Motion",
+          iconifyClass: "logos:framer",
+        },
+      ],
+    },
+    {
+      id: "project-1",
+      name: "Tikkaway",
+      url: "https://restaurant-app-bceb0.web.app/",
+      repoUrl: "https://github.com/sumit-sharma-02/tikkaway",
+      description:
+        "Tikkaway is a full stack restaurant web application that allows you to order food online. It has wide variety of categories on the menu like Chicken, Curry, Rice, Fish, Fruits, Icecreams, Soft Drinks etc.",
+      languages: [
+        {
+          name: "React",
+          iconifyClass: "logos:react",
+        },
+        {
+          name: "Redux",
+          iconifyClass: "logos:redux",
+        },
+        {
+          name: "Firebase",
+          iconifyClass: "logos:firebase",
+        },
+        {
+          name: "Tailwind",
+          iconifyClass: "vscode-icons:file-type-tailwind",
+        },
+        {
+          name: "Framer Motion",
+          iconifyClass: "logos:framer",
+        },
+      ],
+    },
+    {
+      id: "project-2",
+      name: "MEAN Agency",
+      url: "",
+      repoUrl: "https://github.com/sumit-sharma-02/mean-agency",
+      description:
+        "Mean Agency is a full stack service provider web application that allows you to provide services to other companies.",
+      languages: [
+        {
+          name: "Angular",
+          iconifyClass: "logos:angular-icon",
+        },
+        {
+          name: "Express",
+          iconifyClass: "simple-icons:express",
+        },
+        {
+          name: "Nodejs",
+          iconifyClass: "logos:nodejs",
+        },
+        {
+          name: "MongoDB",
+          iconifyClass: "vscode-icons:file-type-mongo",
+        },
+        {
+          name: "Bootstrap",
+          iconifyClass: "logos:bootstrap",
+        },
+        {
+          name: "Handlebars",
+          iconifyClass: "vscode-icons:file-type-handlebars",
+        },
+      ],
+    },
+    {
+      id: "project-3",
+      name: "Countdown Timer",
+      url: "https://countdown-timer-sumit-sharma-02.vercel.app/",
+      repoUrl: "https://github.com/sumit-sharma-02/countdown-timer",
+      description: "A Simple React App for countdown to new year using hooks.",
+      languages: [
+        {
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "React",
+          iconifyClass: "logos-react",
+        },
+      ],
+    },
+    {
+      id: "project-4",
+      name: "Portfolio",
+      url: "",
+      repoUrl: "https://github.com/sumit-sharma-02/sumit-portfolio",
+      description: "You are watching it right now 😉.",
+      languages: [
+        {
+          name: "React",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "Bootstrap",
+          iconifyClass: "logos:bootstrap",
+        },
+        {
+          name: "React Reveal",
+          iconifyClass: "simple-icons:scrollreveal",
+        },
+        {
+          name: "Styled Components",
+          iconifyClass: "vscode-icons:file-type-styled",
+        },
+      ],
+    },
+  ],
 };
 
 // Contact Page
@@ -467,365 +641,6 @@ const contactPageData = {
     link: "https://medium.com/sumit-sharma-02/",
     avatar_image_path: "blogs_image.svg",
   },
-};
-
-const projects = {
-  data: [
-    {
-      id: "0",
-      name: "Mind Space",
-      url: "https://www.mindspace.cf/",
-      description:
-        "This is Blogging website where users can create blogs, follow and unfollow other users, get summarized blog reccomendation on their dashboard and have a personalised searching mechanism.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Flask",
-          iconifyClass: "cib-flask",
-        },
-      ],
-    },
-    {
-      id: "1",
-      name: "Youtube Downloader",
-      url: "https://github.com/vvHacker007/Youtube-Downloader/",
-      description:
-        "A desktop GUI which can be used to download youtube videos and playlist with desired quality and type on desktop.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "2",
-      name: "Tune In",
-      url: "https://github.com/vvHacker007/Tune-In",
-      description:
-        "Tune in is a collaborative music playing system where multiple guests can join a room and enjoy the song being played. Guests can pause and vote to skip the current song.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "Django",
-          iconifyClass: "logos-django",
-        },
-      ],
-    },
-    {
-      id: "3",
-      name: "Event Scheduler",
-      url: "https://github.com/vvHacker007/Event-Scheduler",
-      description:
-        "It is an all-purpose scheduler software. It is designed to monitor all the activities and give appropriate reminders for them.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Flask",
-          iconifyClass: "cib-flask",
-        },
-      ],
-    },
-    {
-      id: "4",
-      name: "Movie Reccomendation System",
-      url: "https://github.com/vvHacker007/Movie-Recommendation-Systems",
-      description:
-        "Made three python kernels explaining and implementing the three different types of movie recommender systems.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
-        },
-      ],
-    },
-    {
-      id: "3",
-      name: "Login Authenticator",
-      url: "https://github.com/vvHacker007/Login-Authenticator",
-      description: "Made a template for a Login Authenticator using Flask ",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Flask",
-          iconifyClass: "cib-flask",
-        },
-      ],
-    },
-    {
-      id: "4",
-      name: "Calculator",
-      url: "https://github.com/vvHacker007/Calculator",
-      description:
-        "Made a GUI based Calculator. Also made an executable file for the project which can be downloaded and used by anyone on their personal computer.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "5",
-      name: "Notepad",
-      url: "https://github.com/vvHacker007/Notepad",
-      description:
-        "Made a GUI based Notepad. Also made an executable file for the project which can be downloaded and used by anyone on their personal computer.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "6",
-      name: "Tetris",
-      url: "https://github.com/vvHacker007/Tetris",
-      description: "Made a GUI based arcade game Tetris using pygame.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "7",
-      name: "Steganography",
-      url: "https://github.com/vvHacker007/Steganography",
-      description:
-        "A CLI tool to conceal messages within a file, text, image, or video.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "OpenCV",
-          iconifyClass: "logos-opencv",
-        },
-      ],
-    },
-    {
-      id: "8",
-      name: "Mini Paint",
-      url: "https://github.com/vvHacker007/Mini-Paint",
-      description: "GUI based Mini Paint Application.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "9",
-      name: "Speedtest",
-      url: "https://github.com/vvHacker007/Speed-test",
-      description:
-        "An internet speed testing application which can notify about the download speed, upload speed, and also the reaction time of the connection.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "10",
-      name: "Cat Classifier",
-      url: "https://github.com/vvHacker007/Cat-Classifier",
-      description:
-        "Binary Cat Classifier made by hard coding Neural Networks in Python without using libraries such as Tensorflow or keras.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
-        },
-      ],
-    },
-    {
-      id: "11",
-      name: "Snake",
-      url: "https://github.com/vvHacker007/Snake",
-      description:
-        "A snake game which covers all the basic features like score, high score and an automated speed increase simultaneously when the snake eats the food.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "12",
-      name: "Score Predictor",
-      url: "https://score-predictor-app.herokuapp.com/",
-      description:
-        "Predicts students score based on the number of hours the student puts in it.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Flask",
-          iconifyClass: "cib-flask",
-        },
-        {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
-        },
-      ],
-    },
-    {
-      id: "13",
-      name: "Blood Donation Predictor",
-      url: "https://blood-donation-predictor-app.herokuapp.com/",
-      description:
-        "Predicts if one is ready to donate blood based on the user's blood donation history.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
-        },
-      ],
-    },
-    {
-      id: "14",
-      name: "Credit-Card Default Predictor",
-      url: "https://default-predictor-app.herokuapp.com/",
-      description:
-        "Predicts whether user's credit card would be defaulted or not based on the user's bank statements and history.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
-        },
-      ],
-    },
-    {
-      id: "15",
-      name: "Portfolio Website",
-      url: "https://vvhacker007.github.io/Portfolio/",
-      description: "You are stalking it right now 😉",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-      ],
-    },
-  ],
 };
 
 export {

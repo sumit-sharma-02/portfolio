@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
-import "./SoftwareSkill.css";
 import { Tooltip, TooltipWrapper } from "react-tooltip";
 import "react-tooltip/dist/react-tooltip.css";
+import "./SoftwareSkill.css";
 
 function SoftwareSkill(props) {
   return (

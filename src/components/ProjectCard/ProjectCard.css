@@ -58,10 +58,11 @@
 .repo-description {
   word-wrap: break-word;
   text-align: left;
-  display: -webkit-box;
   font-family: "Google Sans Regular";
-  -webkit-line-clamp: 4;
+  overflow: hidden;
+  display: -webkit-box;
   -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
 }
 
 .repo-details {
