@@ -4,7 +4,6 @@
 const settings = {
   isSplash: true, // Change this to true if you want to use the splash screen.
   useCustomCursor: true, // Change this to false if you want the good'ol cursor
-  googleTrackingID: "UA-174238252-2",
 };
 
 //Home Page
@@ -610,8 +609,16 @@ const projects = {
           iconifyClass: "logos-react",
         },
         {
-          name: "Bootstrap",
-          iconifyClass: "logos:bootstrap",
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
         },
         {
           name: "React Reveal",
@@ -633,13 +640,6 @@ const contactPageData = {
     profile_image_path: "portfolioProfileImage.png",
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
-  },
-  blogSection: {
-    title: "Get in Touch",
-    subtitle:
-      "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others.",
-    link: "https://medium.com/sumit-sharma-02/",
-    avatar_image_path: "blogs_image.svg",
   },
 };
 

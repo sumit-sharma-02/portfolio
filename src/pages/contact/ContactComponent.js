@@ -2,16 +2,16 @@ import React from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
-import BlogsImg from "./BlogsImg";
+// import BlogsImg from "./BlogsImg";
 import { Fade } from "react-reveal";
-import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../portfolio.js";
 import { style } from "glamor";
+import "./ContactComponent.css";
 
 const ContactData = contactPageData.contactSection;
-const blogSection = contactPageData.blogSection;
+// const blogSection = contactPageData.blogSection;
 
-function Contact(props) {
+export default function Contact(props) {
   const theme = props.theme;
 
   const styles = style({
@@ -48,40 +48,6 @@ function Contact(props) {
                 {ContactData["description"]}
               </p>
               <SocialMedia page="contact" />
-              <br />
-              <br />
-              <a
-                {...styles}
-                className="general-btn contact-btn"
-                target="_blank"
-                rel="noopener noreferrer"
-                href={greeting.resumeLink}
-              >
-                Checkout My Résumé
-              </a>
-            </div>
-          </div>
-        </Fade>
-        <Fade bottom duration={1000} distance="40px">
-          <div className="blog-heading-div">
-            <div className="blog-heading-text-div">
-              <h1 className="blog-heading-text" style={{ color: theme.text }}>
-                {blogSection["title"]}
-              </h1>
-              <p
-                className="blog-header-detail-text subTitle"
-                style={{ color: theme.secondaryText }}
-              >
-                {blogSection["subtitle"]}
-              </p>
-              <div className="blogsite-btn-div">
-                <a {...styles} className="general-btn" href={blogSection.link}>
-                  Send
-                </a>
-              </div>
-            </div>
-            <div className="blog-heading-img-div">
-              <BlogsImg theme={theme} />
             </div>
           </div>
         </Fade>
@@ -90,5 +56,3 @@ function Contact(props) {
     </div>
   );
 }
-
-export default Contact;

@@ -4,8 +4,8 @@ import Footer from "../../components/footer/Footer";
 import Educations from "../../containers/education/Educations";
 import Certifications from "../../containers/certifications/Certifications";
 import EducationImg from "./EducationImg";
-import "./EducationComponent.css";
 import { Fade } from "react-reveal";
+import "./EducationComponent.css";
 
 function Education(props) {
   const theme = props.theme;

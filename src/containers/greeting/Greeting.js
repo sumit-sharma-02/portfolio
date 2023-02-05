@@ -1,24 +1,22 @@
 import React from "react";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
-// import { useNavigate } from "react-router-dom";
-// import { style } from "glamor";
+import { style } from "glamor";
 import Typewriter from "typewriter-effect";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
 import FeelingProud from "./FeelingProud";
 import WaveHand from "../../assets/images/waving-hand.png";
 import "./Greeting.css";
 
 export default function Greeting(props) {
   const theme = props.theme;
-  // const navigate = useNavigate();
 
-  // const styles = style({
-  //   backgroundColor: `${theme.accentBright}`,
-  //   ":hover": {
-  //     boxShadow: `0 5px 15px ${theme.accentBright}`,
-  //   },
-  // });
+  const styles = style({
+    backgroundColor: `${theme.accentBright}`,
+    padding: "15px 30px !important",
+    ":hover": {
+      boxShadow: `0 5px 15px ${theme.accentBright}`,
+    },
+  });
 
   return (
     <Fade bottom duration={2000} distance="40px">
@@ -61,18 +59,26 @@ export default function Greeting(props) {
                   }}
                 />
               </div>
-              <SocialMedia page="home" />
-              {/* <div className="portfolio-repo-btn-div">
-                <button
+              {/* <a
+                {...styles}
+                className="general-btn contact-btn"
+                target="_blank"
+                rel="noopener noreferrer"
+                href={greeting.resumeLink}
+              >
+                Checkout My Résumé
+              </a> */}
+              <div className="portfolio-repo-btn-div">
+                <a
                   {...styles}
                   className="button"
-                  onClick={() => {
-                    navigate("/contact");
-                  }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href={greeting.resumeLink}
                 >
-                  Contact Me
-                </button>
-              </div> */}
+                  Checkout My Résumé
+                </a>
+              </div>
             </div>
           </div>
           <div className="greeting-image-div">
