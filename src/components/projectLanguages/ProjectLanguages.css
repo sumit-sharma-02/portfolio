@@ -5,6 +5,10 @@
   margin-bottom: 0px;
   margin-top: 0px;
   text-align: left;
+  /* line-height: 3rem; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 0rem;
 }
 
 .software-skill-inline-languages {

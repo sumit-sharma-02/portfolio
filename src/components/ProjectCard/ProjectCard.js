@@ -30,9 +30,11 @@ export default function ProjectCard({ repo, theme }) {
         <div
           {...styles}
           key={repo.id}
-          onClick={() => openRepoinNewTab(repo.url)}
+          className="project-card-div"
+          // onClick={() => openRepoinNewTab(repo.url)}
           style={{ backgroundColor: theme.themeColor }}
         >
+          <div className="project-card-overlay"></div>
           <div className="repo-name-div">
             <p className="repo-name" style={{ color: theme.text }}>
               {repo.name}

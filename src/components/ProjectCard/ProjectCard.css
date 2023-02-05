@@ -6,6 +6,50 @@
   color: rgb(106, 115, 125);
 }
 
+.project-card-div {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: all 0.3s ease-out;
+  text-decoration: none;
+  z-index: 1;
+}
+
+
+.project-card-overlay {
+  position: absolute;
+  margin: -2rem;
+  background: #FC1056;
+  z-index: -1;
+  transition: all 0.3s ease-out;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.project-card-div:hover .project-card-overlay {
+  width: 100%;
+  height: 100%;
+  animation: 0.5s ease-out 0s 1 slideInFromLeft;
+  /* height: 100%; */
+}
+
+.project-card-div:hover * {
+  transition-property: color;
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  transition-duration: 1.05s;
+  color: #ffffff !important;
+}
+
 .repo-left-stat {
   -webkit-box-flex: 1;
   flex-grow: 1;

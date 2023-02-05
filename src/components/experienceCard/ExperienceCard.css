@@ -116,7 +116,7 @@
 } */
 
 .experience-card-body:hover * {
-  transition-property: color, text-decoration-color;
+  transition-property: color;
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
   transition-duration: 1.05s;
   color: #ffffff;

@@ -492,16 +492,16 @@ const projects = {
           iconifyClass: "vscode-icons:file-type-mongo",
         },
         {
+          name: "Stripe",
+          iconifyClass: "logos:stripe",
+        },
+        {
           name: "Tailwind",
           iconifyClass: "vscode-icons:file-type-tailwind",
         },
         {
           name: "Cloudinary",
           iconifyClass: "logos:cloudinary-icon",
-        },
-        {
-          name: "Stripe",
-          iconifyClass: "logos:stripe",
         },
         {
           name: "Framer Motion",

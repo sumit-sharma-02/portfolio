@@ -1,8 +1,8 @@
 import React from "react";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
-import { useNavigate } from "react-router-dom";
-import { style } from "glamor";
+// import { useNavigate } from "react-router-dom";
+// import { style } from "glamor";
 import Typewriter from "typewriter-effect";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import FeelingProud from "./FeelingProud";
@@ -11,14 +11,14 @@ import "./Greeting.css";
 
 export default function Greeting(props) {
   const theme = props.theme;
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
-  const styles = style({
-    backgroundColor: `${theme.accentBright}`,
-    ":hover": {
-      boxShadow: `0 5px 15px ${theme.accentBright}`,
-    },
-  });
+  // const styles = style({
+  //   backgroundColor: `${theme.accentBright}`,
+  //   ":hover": {
+  //     boxShadow: `0 5px 15px ${theme.accentBright}`,
+  //   },
+  // });
 
   return (
     <Fade bottom duration={2000} distance="40px">
@@ -62,7 +62,7 @@ export default function Greeting(props) {
                 />
               </div>
               <SocialMedia page="home" />
-              <div className="portfolio-repo-btn-div">
+              {/* <div className="portfolio-repo-btn-div">
                 <button
                   {...styles}
                   className="button"
@@ -72,7 +72,7 @@ export default function Greeting(props) {
                 >
                   Contact Me
                 </button>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="greeting-image-div">
