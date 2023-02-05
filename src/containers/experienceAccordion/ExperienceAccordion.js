@@ -20,7 +20,6 @@ function ExperienceAccordion(props) {
             );
           })}
         </main>
-        {/* </Accordion> */}
       </ThemeProvider>
     </div>
   );

@@ -2,7 +2,6 @@
   margin: 50px;
   border-radius: 5px;
   background-color: transparent;
-  /* border: 0.1px solid rgba(211, 211, 211, 0.397); */
   transition: all 0.2s ease-in-out;
 }
 
@@ -24,11 +23,6 @@
     padding-left: 30px;
     padding-right: 30px;
   }
-}
-
-.experience-accord:hover {
-  /* color: rgba(255, 255, 255, 1); */
-  /* box-shadow: 0 5px 15px #e2405f; */
 }
 
 .accord-panel {

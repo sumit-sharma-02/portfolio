@@ -1,5 +1,4 @@
 // Theme Presets
-
 const lightTheme = {
   name: "light",
   body: "#FEE9F2",

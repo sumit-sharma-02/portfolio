@@ -9,10 +9,7 @@ function DegreeCard(props) {
     <div className="degree-card">
       {degree.logo_path && (
         <Flip left duration={2000}>
-          <div
-            className="card-img"
-            // style={{ backgroundColor: theme.themeColor }}
-          >
+          <div className="card-img">
             <img
               style={{
                 maxWidth: "100%",

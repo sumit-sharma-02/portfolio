@@ -1,8 +1,8 @@
 import React from "react";
-import "./Certifications.css";
 import { Fade } from "react-reveal";
 import { certifications } from "../../portfolio";
 import CertificationCard from "../../components/certificationCard/CertificationCard";
+import "./Certifications.css";
 
 function Certifications(props) {
   const theme = props.theme;

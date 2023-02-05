@@ -1,8 +1,8 @@
 import React from "react";
 import ProjectLanguages from "../projectLanguages/ProjectLanguages";
-import "./ProjectCard.css";
 import { Fade } from "react-reveal";
 import { style } from "glamor";
+import "./ProjectCard.css";
 
 export default function ProjectCard({ repo, theme }) {
   const openLiveApp = (url) => {

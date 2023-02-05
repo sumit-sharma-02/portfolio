@@ -64,14 +64,17 @@
     line-height: normal;
     text-align: center;
   }
+
   .contact-text-div {
     text-align: center;
     margin-top: 1.5rem;
   }
+
   .contact-detail,
   .contact-detail-email {
     font-size: 20px;
   }
+
   .contact-image-div {
     display: none;
   }
