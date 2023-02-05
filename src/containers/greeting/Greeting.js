@@ -13,6 +13,7 @@ export default function Greeting(props) {
   const styles = style({
     backgroundColor: `${theme.accentBright}`,
     padding: "15px 30px !important",
+    letterSpacing: "0.125rem",
     ":hover": {
       boxShadow: `0 5px 15px ${theme.accentBright}`,
     },
@@ -59,15 +60,6 @@ export default function Greeting(props) {
                   }}
                 />
               </div>
-              {/* <a
-                {...styles}
-                className="general-btn contact-btn"
-                target="_blank"
-                rel="noopener noreferrer"
-                href={greeting.resumeLink}
-              >
-                Checkout My Résumé
-              </a> */}
               <div className="portfolio-repo-btn-div">
                 <a
                   {...styles}
@@ -76,7 +68,7 @@ export default function Greeting(props) {
                   rel="noopener noreferrer"
                   href={greeting.resumeLink}
                 >
-                  Checkout My Résumé
+                  Résumé
                 </a>
               </div>
             </div>
