@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Routes, HashRouter } from "react-router-dom";
+import { Route, Routes, HashRouter, Navigate } from "react-router-dom";
 import Home from "../pages/home/HomeComponent";
 import Splash from "../pages/splash/Splash";
 import Education from "../pages/education/EducationComponent";
@@ -54,6 +54,7 @@ export default function Main(propss) {
                 <Projects theme={propss.theme} setTheme={propss.setTheme} />
               }
             />
+            <Route path="*" element={<Navigate to={"/"} />} />
           </Routes>
         </HashRouter>
       </div>
@@ -95,6 +96,7 @@ export default function Main(propss) {
                 <Projects theme={propss.theme} setTheme={propss.setTheme} />
               }
             />
+            <Route path="*" element={<Navigate to={"/"} />} />
           </Routes>
         </HashRouter>
       </div>
