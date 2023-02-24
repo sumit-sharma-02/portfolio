@@ -358,6 +358,15 @@ const degrees = {
 const certifications = {
   certifications: [
     {
+      title: "HTML and CSS in depth",
+      subtitle: "",
+      logo_path: "meta_logo.png",
+      certificate_link:
+        "https://coursera.org/share/667de02731a480b76b5300c6612d174d",
+      alt_name: "Meta",
+      color_code: "#096ce1",
+    },
+    {
       title: "Java Programming: Principles of Software Design",
       subtitle: "",
       logo_path: "duke-logo.jpg",
