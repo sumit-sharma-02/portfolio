@@ -358,11 +358,47 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Android Application Development",
+      title: "Java Programming: Principles of Software Design",
+      subtitle: "",
+      logo_path: "duke-logo.jpg",
+      certificate_link:
+        "https://coursera.org/share/f4e9af47fbb24381e04031f3cc8cfd9f",
+      alt_name: "Duke University",
+      color_code: "#001a57",
+    },
+    {
+      title: "Java Programming: Solving Problems with Software",
+      subtitle: "",
+      logo_path: "duke-logo.jpg",
+      certificate_link:
+        "https://coursera.org/share/36411fcea7ea4fbb5c613ef4911f4668",
+      alt_name: "Duke University",
+      color_code: "#001a57",
+    },
+    {
+      title: "Programming Foundations with JavaScript, HTML and CSS",
+      subtitle: "",
+      logo_path: "duke-logo.jpg",
+      certificate_link:
+        "https://coursera.org/share/0269c76c33997304d1842d4eef16815b",
+      alt_name: "Duke University",
+      color_code: "#001a57",
+    },
+    {
+      title: "Android Application Development - II",
       subtitle: "- Dr. Adam Porter",
       logo_path: "maryland_logo.svg",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/2H59Z22DDSU8?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course",
+        "https://www.coursera.org/account/accomplishments/verify/GN48B7W9TU59",
+      alt_name: "Stanford University",
+      color_code: "#e11a2b",
+    },
+    {
+      title: "Android Application Development - I",
+      subtitle: "- Dr. Adam Porter",
+      logo_path: "maryland_logo.svg",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/verify/2H59Z22DDSU8",
       alt_name: "Stanford University",
       color_code: "#e11a2b",
     },
@@ -371,7 +407,7 @@ const certifications = {
       subtitle: "- Christian Hur",
       logo_path: "coursera_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/97WF8EZ4Y2YD?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course",
+        "https://www.coursera.org/account/accomplishments/verify/97WF8EZ4Y2YD",
       alt_name: "Coursera",
       color_code: "#0056d2",
     },
@@ -430,7 +466,7 @@ const experience = {
         company_url: "https://www.infosys.com/",
         logo_path: "infosys-logo.png",
         alt_name: "infosys-logo",
-        duration: "(Nov, 2021 - Present)",
+        duration: "(Nov, 2021 - May, 2023)",
         location: "Remote",
         description:
           "<li>Developed 2 new tools with an intuitive design in Lex (Learning platform for the employees of Infosys) for interactive content creation using Angular v12. Used by 150+ educators for creating new interactive courses, consumed by 1000+ learners.</li><br><li>Developed a web based AR/VR learning solution for the learners to enhance their learning experience in a classroom using open-source web framework A-frame and Networked A-frame. Implemented REST API using Node and Express, multi-user experience and other features like chat, screen, audio and video share.</li><br><li>Developed a PWA (Progressive Web Application) within Lex with an intuitive design for all the educators in Infosys for creating their own analogy with add on animations in their content using HTML, CSS, JavaScript and a open source library Fabric.js. Used by 200+ educators with 2000+ pages of content published in Lex.</li>",
