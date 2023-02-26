@@ -362,7 +362,7 @@ const certifications = {
       subtitle: "",
       logo_path: "meta_logo.png",
       certificate_link:
-        "https://coursera.org/share/4d498280974edbfba90914c243a9b2f1",
+        "https://coursera.org/share/29c75a387fcaf2f1e2403f73473092b2",
       alt_name: "Meta",
       color_code: "#096ce1",
     },
