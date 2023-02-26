@@ -358,6 +358,15 @@ const degrees = {
 const certifications = {
   certifications: [
     {
+      title: "React Basics",
+      subtitle: "",
+      logo_path: "meta_logo.png",
+      certificate_link:
+        "https://coursera.org/share/4d498280974edbfba90914c243a9b2f1",
+      alt_name: "Meta",
+      color_code: "#096ce1",
+    },
+    {
       title: "Programming with JavaScript",
       subtitle: "",
       logo_path: "meta_logo.png",
