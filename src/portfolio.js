@@ -358,6 +358,15 @@ const degrees = {
 const certifications = {
   certifications: [
     {
+      title: "Java Programming: Build a Recommendation System",
+      subtitle: "",
+      logo_path: "duke-logo.jpg",
+      certificate_link:
+        "https://coursera.org/share/6af001cafc4b683bb38abdb9e81d0d79",
+      alt_name: "Duke University",
+      color_code: "#001a57",
+    },
+    {
       title: "React Basics",
       subtitle: "",
       logo_path: "meta_logo.png",
