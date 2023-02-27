@@ -63,7 +63,7 @@ Add/Change/Update themes(color, background color, text color etc.) according to 
 
 ### Launch the app 
 
-Use the following commeand to run the app in your localhost.
+Use the following command to run the app in your localhost.
 
 ```
 npm start
