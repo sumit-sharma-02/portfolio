@@ -358,6 +358,15 @@ const degrees = {
 const certifications = {
   certifications: [
     {
+      title: "Advanved React",
+      subtitle: "",
+      logo_path: "meta_logo.png",
+      certificate_link:
+        "https://coursera.org/share/877acd7eaf9dd532a2cb5b103576967e",
+      alt_name: "Meta",
+      color_code: "#096ce1",
+    },
+    {
       title: "Java Programming: Build a Recommendation System",
       subtitle: "",
       logo_path: "duke-logo.jpg",
