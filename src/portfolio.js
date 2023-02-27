@@ -358,7 +358,16 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Advanved React",
+      title: "Front-End Developer Capstone",
+      subtitle: "",
+      logo_path: "meta_logo.png",
+      certificate_link:
+        "https://coursera.org/share/f80912b58e3afcfa49e6116210a2c9da",
+      alt_name: "Meta",
+      color_code: "#096ce1",
+    },
+    {
+      title: "Advanced React",
       subtitle: "",
       logo_path: "meta_logo.png",
       certificate_link:
