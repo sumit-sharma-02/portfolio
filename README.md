@@ -59,7 +59,7 @@ Add/Change/Update your data (Name, Experience, Projects etc.) as per your need i
 
 ### Configure Portfolio Theme
 
-Add/Change/Update themes(color, background color, text color etc.) according to your need (Name, Experience, Projects etc.) in theme.js file.
+Add/Change/Update themes(color, background color, text color etc.) according to your need in theme.js file.
 
 ### Launch the app 
 
