@@ -358,7 +358,7 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Front-End Developer Capstone",
+      title: "Frontend Developer Capstone",
       subtitle: "",
       logo_path: "meta_logo.png",
       certificate_link:
@@ -515,15 +515,27 @@ const experience = {
     title: "Work Experience",
     experiences: [
       {
+        title: "System Associate",
+        company: "Infosys",
+        company_url: "https://www.infosys.com/",
+        logo_path: "infosys-logo.png",
+        alt_name: "infosys-logo",
+        duration: "(Feb, 2023 - May, 2023)",
+        location: "Remote",
+        description:
+          "<li>Launched Encharta 2.0 in a team of four with add on features such as multiple content pages in a single project, audio, custom gradients, trigger and hover based animations etc. in canvas using ReactJS v18.</li><br><li>Created a PWA named Encharta for all the educators in Infosys for creating their own analogies with add on animations in their content using HTML, CSS, JavaScript and an open source library Fabric.js.</li>",
+        color: "#0071C5",
+      },
+      {
         title: "Operations Executive",
         company: "Infosys",
         company_url: "https://www.infosys.com/",
         logo_path: "infosys-logo.png",
         alt_name: "infosys-logo",
-        duration: "(Nov, 2021 - May, 2023)",
+        duration: "(Nov, 2021 - Jan, 2023)",
         location: "Remote",
         description:
-          "<li>Developed 2 new tools with an intuitive design in Lex (Learning platform for the employees of Infosys) for interactive content creation using Angular v12. Used by 150+ educators for creating new interactive courses, consumed by 1000+ learners.</li><br><li>Developed a web based AR/VR learning solution for the learners to enhance their learning experience in a classroom using open-source web framework A-frame and Networked A-frame. Implemented REST API using Node and Express, multi-user experience and other features like chat, screen, audio and video share.</li><br><li>Developed a PWA (Progressive Web Application) within Lex with an intuitive design for all the educators in Infosys for creating their own analogy with add on animations in their content using HTML, CSS, JavaScript and a open source library Fabric.js. Used by 200+ educators with 2000+ pages of content published in Lex.</li>",
+          "<li>Implemented few UI tweaks and added new categories with add on pop-ups (video, images etc.) in an web app named “Awards For Excellence” which is used for nominating employees within Infosys for various award categories using Angular v10.</li><br><li>Implemented REST API using Node and Express to fetch the data of the classrooms, learners, educators and courses. Used socket programming for multi-user experience and other features like chat, screen, audio and video share for web based AR/VR learning platform.</li><br><li>Developed 2 new tools with an intuitive design in Lex (Learning platform for the employees of Infosys) for interactive content creation using Angular v12 which is getting used by 100+ educators for creating new interactive courses, consumed by 1000+ learners.</li>",
         color: "#0071C5",
       },
       {
@@ -717,6 +729,28 @@ const projects = {
         {
           name: "Styled Components",
           iconifyClass: "vscode-icons:file-type-styled",
+        },
+      ],
+    },
+    {
+      id: "project-5",
+      name: "SpaceX Capsules",
+      url: "https://spacex-capsules.vercel.app/",
+      repoUrl: "https://github.com/sumit-sharma-02/spacex-capsules",
+      description:
+        "A React application which shows you the filtered spaceX capsules data.",
+      languages: [
+        {
+          name: "React",
+          iconifyClass: "logos:react",
+        },
+        {
+          name: "Redux",
+          iconifyClass: "logos:redux",
+        },
+        {
+          name: "Tailwind",
+          iconifyClass: "vscode-icons:file-type-tailwind",
         },
       ],
     },
