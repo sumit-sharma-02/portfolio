@@ -358,6 +358,60 @@ const degrees = {
 const certifications = {
   certifications: [
     {
+      title: "IBM Full Stack Software Developer",
+      subtitle: "",
+      logo_path: "ibm_logo.jpg",
+      certificate_link:
+        "https://coursera.org/share/cbcd30865e98e2e45161a6ace19d3558",
+      alt_name: "IBM",
+      color_code: "#096ce1",
+    },
+    {
+      title: "Application Development using Microservices and Serverless",
+      subtitle: "",
+      logo_path: "ibm_logo.jpg",
+      certificate_link:
+        "https://coursera.org/share/4fa1b8d2f654495a0b692b65d9964ad5",
+      alt_name: "IBM",
+      color_code: "#096ce1",
+    },
+    {
+      title: "Introduction to Cloud Computing",
+      subtitle: "",
+      logo_path: "ibm_logo.jpg",
+      certificate_link:
+        "https://coursera.org/share/438a8e16af4786782c8a739aef79e999",
+      alt_name: "IBM",
+      color_code: "#096ce1",
+    },
+    {
+      title: "Introduction to Containers w/ Docker, Kubernetes & OpenShift",
+      subtitle: "",
+      logo_path: "ibm_logo.jpg",
+      certificate_link:
+        "https://coursera.org/share/cfa7b88b913e4a8446b9dc706c0802b0",
+      alt_name: "IBM",
+      color_code: "#096ce1",
+    },
+    {
+      title: "Django Application Development with SQL and Databases",
+      subtitle: "",
+      logo_path: "ibm_logo.jpg",
+      certificate_link:
+        "https://coursera.org/share/47d8c39642888094ad458b5e44a3c9f3",
+      alt_name: "IBM",
+      color_code: "#096ce1",
+    },
+    {
+      title: "Developing AI Applications with Python and Flask",
+      subtitle: "",
+      logo_path: "ibm_logo.jpg",
+      certificate_link:
+        "https://coursera.org/share/f4ce59c0d68e4569056faaf2fdb4c256",
+      alt_name: "IBM",
+      color_code: "#096ce1",
+    },
+    {
       title: "Frontend Developer Capstone",
       subtitle: "",
       logo_path: "meta_logo.png",
@@ -509,47 +563,33 @@ const experience = {
   title: "Experience",
   subtitle: "Work and Apprenticeship",
   description:
-    "I've over 2 years of experience as a full stack developer. I've worked on building products for multiple stakeholders in Infosys as well as my personal projects.",
+    "I've over 3 years of experience as a Full Stack Developer. I've worked on building products for multiple stakeholders in Infosys and Ottonomy.",
   header_image_path: "experience.svg",
   sections: {
     title: "Work Experience",
     experiences: [
       {
-        title: "System Associate",
-        company: "Infosys",
-        company_url: "https://www.infosys.com/",
-        logo_path: "infosys-logo.png",
-        alt_name: "infosys-logo",
-        duration: "(Feb, 2023 - May, 2023)",
-        location: "Remote",
-        description:
-          "<li>Launched Encharta 2.0 in a team of four with add on features such as multiple content pages in a single project, audio, custom gradients, trigger and hover based animations etc. in canvas using ReactJS v18.</li><br><li>Created a PWA named Encharta for all the educators in Infosys for creating their own analogies with add on animations in their content using HTML, CSS, JavaScript and an open source library Fabric.js.</li>",
-        color: "#0071C5",
+        title: "SDE - I",
+        company: "Ottonomy",
+        company_url: "https://ottonomy.io/",
+        logo_path: "ottonomy-logo.webp",
+        alt_name: "ottonomy-logo",
+        duration: "(May, 2023 - Present)",
+        location: "Noida (On-Site)",
+        description: "<li> Working on developing a media management software to schedule advertisements in the robot screens.</li><br><li>Working on optimizing E-commerce app and developing analytics dashboard for robots and orders.</li><br><li>Implemented socket to allow users to transfer the controlling of a robot to a different user.</li><br><li>Developed a dashboard to display live feed from robot with map, joystick controls to control the robot with robot commands.</li>",
+        color: "#000000",
       },
       {
-        title: "Operations Executive",
+        title: "Senior System Associate",
         company: "Infosys",
         company_url: "https://www.infosys.com/",
         logo_path: "infosys-logo.png",
         alt_name: "infosys-logo",
-        duration: "(Nov, 2021 - Jan, 2023)",
-        location: "Remote",
-        description:
-          "<li>Implemented few UI tweaks and added new categories with add on pop-ups (video, images etc.) in an web app named “Awards For Excellence” which is used for nominating employees within Infosys for various award categories using Angular v10.</li><br><li>Implemented REST API using Node and Express to fetch the data of the classrooms, learners, educators and courses. Used socket programming for multi-user experience and other features like chat, screen, audio and video share for web based AR/VR learning platform.</li><br><li>Developed 2 new tools with an intuitive design in Lex (Learning platform for the employees of Infosys) for interactive content creation using Angular v12 which is getting used by 100+ educators for creating new interactive courses, consumed by 1000+ learners.</li>",
+        duration: "(Aug, 2021 - May, 2023)",
+        location: "Mysore (Remote)",
+        description: "<li> Created a PWA for educators, allowing them to create analogies with animations using HTML, CSS, JavaScript, and Fabric.js.</li><br><li>Enhanced the product, introduced new features like multiple content pages, audio, custom gradients, trigger-based animations using React.js.</li><br><li>Developed an web based AR/VR learning platform using Node, Express and socket for multi-user experience and other features like chat, screen, audio and video share for web based.</li><br><li>Developed 2 new tools with an intuitive design for interactive content creation using Angular</li>",
         color: "#0071C5",
-      },
-      {
-        title: "Java Full Stack Developer Trainee",
-        company: "Infosys",
-        company_url: "https://www.infosys.com/",
-        logo_path: "infosys-logo.png",
-        alt_name: "infosys-logo",
-        duration: "(Aug, 2021 - Nov, 2021)",
-        location: "Remote",
-        description:
-          "Worked on multiple Capstone projects using Spring Boot and Angular.",
-        color: "#4285F4",
-      },
+      }
     ],
   },
 };
