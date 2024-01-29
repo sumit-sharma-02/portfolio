@@ -15,9 +15,9 @@ const greeting = {
   full_name: "Sumit Sharma",
   subTitle1: "Full Stack Developer.",
   subTitle2: "Life Long Learner.",
-  subTitle: "Full Stack Developer, Life Long Learner.",
+  subTitle: "Software Developer, Full Stack Developer, Life Long Learner.",
   resumeLink:
-    "https://drive.google.com/file/d/1lFqkZnNUg5N2muUuv6qIF6so6xloY6-4/view?usp=sharing",
+    "https://drive.google.com/file/d/1-SSCPhVG80IDtpx7_TPpsLfJyEA7NEtv/view?usp=drive_link",
   mail: "mailto:sumitsharma9968@gmail.com",
 };
 
