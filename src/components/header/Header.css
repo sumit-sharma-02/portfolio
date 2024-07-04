@@ -15,6 +15,15 @@
   box-shadow: 0 2px 2px rgb(230 230 230);
 }
 
+
+
+.logo-image {
+  width: 60px;
+
+
+}
+
+
 .header {
   display: block;
   max-width: 90%;
