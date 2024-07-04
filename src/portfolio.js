@@ -8,9 +8,9 @@ const settings = {
 
 //Home Page
 const greeting = {
-  title: "",
-  title2: " Criando conexões, impulsionando negócios.",
-  logo_name: "Sumit Sharma",
+  title: "Impulsionando negócios",
+  title2: "",
+  logo_name: "Innovation Studio",
   // nickname: "",
   full_name: "Sumit Sharma",
   subTitle1: "Software Developer.",
@@ -569,12 +569,12 @@ const experience = {
     title: "Work Experience",
     experiences: [
       {
-        title: "",
-        company: "BRAVERY",
+        title: "SDE 2",
+        company: "Fractal",
         company_url: "https://fractal.ai/",
-        logo_path: "eded.png",
+        logo_path: "fractal-logo.jpg",
         alt_name: "fractal-logo",
-        duration: "LOJA ECOMMERCE",
+        duration: "(April, 2024 - Present)",
         location: "Gurugram (Hybrid)",
         description: "<li> Developed an application to extract data from PDFs to accumulate data into table and key-value pairs, significantly improving data processing efficiency. </li><br><li>Implemented a user-friendly interface allowing users to pivot data fields into tables or key-value pairs, enhancing data analysis capabilities. </li>",
         color: "#ffffff"
