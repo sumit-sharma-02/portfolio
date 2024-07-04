@@ -72,17 +72,13 @@ function Header(props) {
         }`}
       >
         <header className="header">
-          <NavLink to={link} tag={Link} className="logo">
-            <span style={{ color: theme.text }}></span>
-            <span className="logo-name" style={{ color: theme.text }}>
-              {greeting.logo_name}
-            </span>
-            <span style={{ color: theme.text }}></span>
-          </NavLink>
-          <input className="menu-btn" type="checkbox" id="menu-btn" />
-          <label className="menu-icon" htmlFor="menu-btn">
-            <span className="navicon"></span>
-          </label>
+  <NavLink to={link} tag={Link} className="logo">
+    <img src="/assets/images/logojd.png" alt="Logo" className="logo-image" />
+  </NavLink>
+  <input className="menu-btn" type="checkbox" id="menu-btn" />
+  <label className="menu-icon" htmlFor="menu-btn">
+    <span className="navicon"></span>
+  </label>
           <ul className="menu">
             <li className="homei-li">
               <NavLink

@@ -27,8 +27,7 @@ export default function Greeting(props) {
             <div className="greeting-text-container">
               <h1 className="greeting-text">
                 {greeting.title}
-
-                {greeting.title2}
+             {greeting.title2}
               </h1>
               <div
                 className="greeting-text-div subTitle"
