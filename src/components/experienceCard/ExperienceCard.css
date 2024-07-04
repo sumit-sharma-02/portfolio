@@ -146,6 +146,10 @@
 
 .experience-card-1 header {
   flex: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .experience-card-1 .meta {
@@ -180,7 +184,20 @@ ul ol {
   text-decoration: none;
   color: white;
   cursor: pointer;
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 40px;
+  background-color: red;
+  width: 150px;
+  border-radius: 32px;
+}
+.button_companypath svg{
+  margin-left: 10px;
+}
+.button_companypath:hover{
+scale: 1.1;
+transition: ease .3s;
 }
 
 @media only screen and (min-width: 1280px) {
