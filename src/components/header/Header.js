@@ -7,6 +7,8 @@ import { HiMoon } from "react-icons/hi";
 import { style } from "glamor";
 import "./Header.css";
 
+import logo from "../../assets/images/logojd.png"
+
 function Header(props) {
   const theme = props.theme;
 
@@ -73,7 +75,7 @@ function Header(props) {
       >
         <header className="header">
   <NavLink to={link} tag={Link} className="logo">
-    <img src="/assets/images/logojd.png" alt="Logo" className="logo-image" />
+    <img src={logo} alt="Logo" className="logo-image" />
   </NavLink>
   <input className="menu-btn" type="checkbox" id="menu-btn" />
   <label className="menu-icon" htmlFor="menu-btn">
