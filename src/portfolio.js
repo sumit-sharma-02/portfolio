@@ -569,12 +569,12 @@ const experience = {
     title: "Work Experience",
     experiences: [
       {
-        title: "SDE 2",
-        company: "Fractal",
+        title: "",
+        company: "BRAVERY",
         company_url: "https://fractal.ai/",
-        logo_path: "fractal-logo.jpg",
+        logo_path: "eded.png",
         alt_name: "fractal-logo",
-        duration: "(April, 2024 - Present)",
+        duration: "LOJA ECOMMERCE",
         location: "Gurugram (Hybrid)",
         description: "<li> Developed an application to extract data from PDFs to accumulate data into table and key-value pairs, significantly improving data processing efficiency. </li><br><li>Implemented a user-friendly interface allowing users to pivot data fields into tables or key-value pairs, enhancing data analysis capabilities. </li>",
         color: "#ffffff"
