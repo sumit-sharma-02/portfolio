@@ -52,7 +52,7 @@ function ExperienceCard(props) {
                   height="25"
                   viewBox="0 0 30 28"
                   fill="none"
-                  stroke="#fff"
+                  stroke="000"
                   strokeWidth="1.5"
                   strokeLinecap="round"
                   strokeLinejoin="round"

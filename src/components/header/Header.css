@@ -78,7 +78,7 @@
 }
 
 .header .menu-icon .navicon {
-  background: #fb1056;
+  background: #b6d109;
   display: block;
   height: 2px;
   position: relative;
@@ -88,7 +88,7 @@
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #fb1056;
+  background: #b6d109;
   content: "";
   display: block;
   height: 100%;
@@ -152,7 +152,7 @@
   height: 0.15em;
   bottom: 0;
   width: 100%;
-  background-color: #fb1056;
+  background-color: #b6d109;
   transition: all ease-in-out 280ms;
 }
 
@@ -172,7 +172,7 @@
   height: 0.15em;
   bottom: 0;
   width: 0%;
-  background-color: #fb1056;
+  background-color: #b6d109;
   transition: all ease-in-out 280ms;
 }
 
@@ -194,7 +194,7 @@
   height: 0.15em;
   bottom: 0;
   width: 0%;
-  background-color: #fb1056;
+  background-color: #b6d109;
   transition: all ease-in-out 280ms;
 }
 
@@ -216,7 +216,7 @@
   height: 0.15em;
   bottom: 0;
   width: 0%;
-  background-color: #fb1056;
+  background-color: #b6d109;
   transition: all ease-in-out 280ms;
 }
 
@@ -238,7 +238,7 @@
   height: 0.15em;
   bottom: 0;
   width: 0%;
-  background-color: #fb1056;
+  background-color: #b6d109;
   transition: all ease-in-out 280ms;
 }
 
@@ -260,7 +260,7 @@
   height: 0.15em;
   bottom: 0;
   width: 0%;
-  background-color: #fb1056;
+  background-color: #b6d109;
   transition: all ease-in-out 280ms;
 }
 
