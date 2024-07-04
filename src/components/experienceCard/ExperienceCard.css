@@ -45,7 +45,7 @@
   border-radius: 13px;
   contain: content;
   margin: 4em auto 36px;
-  box-shadow: 0px 8px #bc344e, 0 6px 20px 0 rgb(0 0 0 / 19%),
+  box-shadow: 0px 8px #b6d109, 0 6px 20px 0 rgb(0 0 0 / 19%),
     0 6px 20px 0 rgb(0 0 0 / 19%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
@@ -91,7 +91,7 @@
   text-decoration: none;
 }
 
-.experience-card-body::before {
+/* .experience-card-body::before {
   content: "";
   position: absolute;
   z-index: -5;
@@ -99,23 +99,24 @@
   bottom: 10px;
   height: 30%;
   width: 4.55%;
-  background: #e3405f;
+  background: #CCED00;
   border-radius: 32px;
   transform: scale(0);
   transform-origin: 50% 50%;
   transition: transform 0.25s ease-out;
 }
-
-.experience-card-body:hover:before {
-  transform: scale(45);
+ */
+.experience-card:hover {
+ scale: 1.03;
+ transition: ease .3s;
 }
 
-.experience-card-body:hover * {
+/* .experience-card-body:hover * {
   transition-property: color;
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
   transition-duration: 1.05s;
-  color: #ffffff;
-}
+
+} */
 
 @keyframes slideInFromLeft {
   0% {
@@ -188,16 +189,23 @@ ul ol {
   justify-content: center;
   align-items: center;
   padding: 10px 40px;
-  background-color: red;
+  background-color: #b6d109;
   width: 150px;
   border-radius: 32px;
+  color: black;
+  font-weight: bolder;
 }
 .button_companypath svg{
   margin-left: 10px;
+  color: black;
 }
 .button_companypath:hover{
 scale: 1.1;
 transition: ease .3s;
+color: black;
+}
+.feather{
+  stroke: black !important;
 }
 
 @media only screen and (min-width: 1280px) {

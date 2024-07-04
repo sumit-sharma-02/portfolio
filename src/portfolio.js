@@ -577,7 +577,7 @@ const experience = {
         duration: "(April, 2024 - Present)",
         location: "Gurugram (Hybrid)",
         description: "<li> Developed an application to extract data from PDFs to accumulate data into table and key-value pairs, significantly improving data processing efficiency. </li><br><li>Implemented a user-friendly interface allowing users to pivot data fields into tables or key-value pairs, enhancing data analysis capabilities. </li>",
-        color: "#ffffff"
+        color: "#00000"
       },
       {
         title: "SDE 1",
