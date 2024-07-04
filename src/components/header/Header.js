@@ -93,7 +93,7 @@ function Header(props) {
                 tag={Link}
                 style={{ color: theme.text }}
               >
-                Home
+              Quem Somos
               </NavLink>
             </li>
             <li>
@@ -103,7 +103,7 @@ function Header(props) {
                 tag={Link}
                 style={{ color: theme.text }}
               >
-                Education
+                Serviços
               </NavLink>
             </li>
             <li>
