@@ -8,8 +8,8 @@ const settings = {
 
 //Home Page
 const greeting = {
-  title: "Hi",
-  title2: " I'm Sumit Sharma",
+  title: "",
+  title2: " Criando conexões, impulsionando negócios.",
   logo_name: "Sumit Sharma",
   // nickname: "",
   full_name: "Sumit Sharma",

@@ -27,18 +27,14 @@ export default function Greeting(props) {
             <div className="greeting-text-container">
               <h1 className="greeting-text">
                 {greeting.title}
-                <img
-                  className="greeting-hand-wave"
-                  src={WaveHand}
-                  alt="waving-hand"
-                />
+              
                 ,{greeting.title2}
               </h1>
               <div
                 className="greeting-text-div subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                <span className="greeting-text-static">I'm a </span>
+                <span className="greeting-text-static">Somos </span>
                 <Typewriter
                   options={{
                     autoStart: true,
@@ -68,7 +64,7 @@ export default function Greeting(props) {
                   rel="noopener noreferrer"
                   href={greeting.resumeLink}
                 >
-                  Résumé
+                  Contactar
                 </a>
               </div>
             </div>
