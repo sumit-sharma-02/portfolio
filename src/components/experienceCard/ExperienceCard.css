@@ -52,7 +52,7 @@
 .experience-card-1:hover {
   border-radius: 13px;
   z-index: 0;
-  cursor: pointer;
+ 
 }
 
 .experience-card-body .pre-heading {
@@ -175,6 +175,12 @@ ul ol {
   background-repeat: no-repeat;
   height: auto;
   width: 300px;
+}
+.button_companypath{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  
 }
 
 @media only screen and (min-width: 1280px) {
