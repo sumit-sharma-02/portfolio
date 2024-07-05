@@ -23,12 +23,12 @@ function Header(props) {
     border: "none",
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: "rgb(252 16 86 / 76%)",
+    backgroundColor: "#CCED31",
     outline: "none",
     transition: "all 0.2s ease-in-out",
     ":hover": {
       boxShadow: `0 3px 8px ${
-        props.theme.name === "light" ? "#fc10568f" : "#646464"
+        props.theme.name === "light" ? "#CCED31" : "#646464"
       }`,
     },
   });

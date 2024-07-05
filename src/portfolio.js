@@ -33,13 +33,13 @@ const skills = {
   data: [
     {
       _id: "354c54b7-ffd8-40f1-972f-1d006733df25",
-      title: "Full Stack Development",
+      title: "Desenvolvimento Digital",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Develop highly interactive user interfaces and backend for web applications",
-        "⚡ Building responsive website front end using React and Angular",
-        "⚡ Creating application backend in Node, Express, MongoDB and Rest API",
-        "⚡ Integration of third party services such as Firebase, Vercel etc.",
+        "⚡ Desenvolvemos soluções de front-end e back-end altamente interativas para web",
+        "⚡ Construimos site de front-end responsivo em react",
+        "⚡ Criamos applicações de backend em Node, Express, MongoDB e API",
+        "⚡ Integração de serviços de terceiros como Firebase e Vercel",
       ],
       softwareSkills: [
         {
