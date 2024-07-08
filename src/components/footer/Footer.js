@@ -8,9 +8,9 @@ export default function Footer(props) {
   return (
     <div className="footer-div">
       <Fade>
-        <p className="footer-text" style={{ color: props.theme.secondaryText }}>
-          Made with <span role="img">❤️</span> by {greeting.full_name}
-        </p>
+         <p className="footer-text" style={{ color: props.theme.secondaryText }}>
+          O JEPE CHUPA PILAS A TORTO E A DIREITO - 2024 ©
+        </p> 
       </Fade>
     </div>
   );
