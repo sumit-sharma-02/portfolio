@@ -560,35 +560,35 @@ const certifications = {
 
 // Experience Page
 const experience = {
-  title: "Experience",
-  subtitle: "Work and Apprenticeship",
+  title: "Projectos",
+  subtitle: "",
   description:
-    "I've over 3 years of experience as a Full Stack Developer. I've worked on building products for multiple stakeholders in Infosys and Ottonomy.",
+    " Alguns dos nossos projetos mais recentes e impactantes. Cada trabalho reflete nossa dedicação ao design de qualidade, criatividade inovadora e compromisso com a satisfação do cliente. Explore nossas criações e veja como podemos transformar suas ideias em realidade.",
   header_image_path: "experience.svg",
   sections: {
     title: "Work Experience",
     experiences: [
       {
-        title: "SDE 2",
-        company: "Fractal",
-        company_url: "https://fractal.ai/",
-        logo_path: "fractal-logo.jpg",
+        title: "BRAVERY",
+        company: "E-COMMERCE",
+        company_url: "https://braverymencare.com/",
+        logo_path: "eded.png",
         alt_name: "fractal-logo",
-        duration: "(April, 2024 - Present)",
+        duration: "",
         location: "Gurugram (Hybrid)",
-        description: "<li> Developed an application to extract data from PDFs to accumulate data into table and key-value pairs, significantly improving data processing efficiency. </li><br><li>Implemented a user-friendly interface allowing users to pivot data fields into tables or key-value pairs, enhancing data analysis capabilities. </li>",
+        description: "<li> Desenvolvimento Completo de Branding e Identidade Visual: Criação do logotipo e design da identidade visual, garantindo uma imagem coesa e impactante para a marca Bravery. </li><br><li>Desenvolvimento do Website em Shopify: Design e implementação de um website funcional e atraente na plataforma Shopify, facilitando a experiência de compra online. </li><br><li>Estratégia de Marketing de Lançamento: Elaboração e execução de uma estratégia de marketing robusta para o lançamento da marca, visando maximizar o alcance e engajamento. </li>",
         color: "#00000"
       },
       {
-        title: "SDE 1",
-        company: "Ottonomy",
-        company_url: "https://ottonomy.io/",
-        logo_path: "ottonomy-logo.webp",
+        title: "VELA",
+        company: "WEBSITE",
+        company_url: "https://www.velacustoms.com/",
+        logo_path: "vela.png",
         alt_name: "ottonomy-logo",
-        duration: "(May, 2023 - April, 2024)",
+        duration: "",
         location: "Gurugram (Hybrid)",
         description: "<li> Working on developing a media management software to schedule advertisements in the robot screens.</li><br><li>Working on optimizing E-commerce app and developing analytics dashboard for robots and orders.</li><br><li>Implemented socket to allow users to transfer the controlling of a robot to a different user.</li><br><li>Developed a dashboard to display live feed from robot with map, joystick controls to control the robot with robot commands.</li>",
-        color: "#000000",
+        color: "#00000",
       },
       {
         title: "Senior System Associate",

@@ -14,7 +14,7 @@
 .experience-card-description {
   text-align: left;
   padding-inline-start: 20px !important;
-  list-style: "⚡";
+  list-style:disc ;
 }
 
 .experience-card {

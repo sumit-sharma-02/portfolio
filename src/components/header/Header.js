@@ -111,7 +111,7 @@ function Header(props) {
                 tag={Link}
                 style={{ color: theme.text }}
               >
-                Experience
+                Portfolio
               </NavLink>
             </li>
             <li>
