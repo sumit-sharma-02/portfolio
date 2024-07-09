@@ -46,96 +46,47 @@ const skills = {
           skillName: "HTML5",
           fontAwesomeClassname: "simple-icons:html5",
           style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
+            color: "#CCED31",
           },
         },
         {
           skillName: "JavaScript",
-          fontAwesomeClassname: "logos:javascript",
+          fontAwesomeClassname: "simple-icons:javascript",
           style: {
-            backgroundColor: "#FFFFFF",
-            color: "#F7DF1E",
+            backgroundColor: "#00000000",
+            color: "#CCED31",
           },
         },
         {
           skillName: "jQuery",
           fontAwesomeClassname: "simple-icons:jquery",
           style: {
-            color: "#0769ad",
+            color: "#CCED31",
           },
         },
         {
           skillName: "ReactJS",
           fontAwesomeClassname: "simple-icons:react",
           style: {
-            color: "#61DAFB",
+            color: "#CCED31",
           },
         },
-        {
-          skillName: "Redux",
-          fontAwesomeClassname: "simple-icons:redux",
-          style: {
-            color: "#593D88",
-          },
-        },
-        {
-          skillName: "Angular",
-          fontAwesomeClassname: "simple-icons:angular",
-          style: {
-            color: "#dd0031",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "Express",
-          fontAwesomeClassname: "simple-icons:express",
-          style: {
-            color: "gray",
-          },
-        },
-        {
-          skillName: "Material UI",
-          fontAwesomeClassname: "simple-icons:uikit",
-          style: {
-            color: "#007FFF",
-          },
-        },
+
         {
           skillName: "Tailwind CSS",
           fontAwesomeClassname: "logos:tailwindcss-icon",
           style: {
-            color: "#635BFF",
+            color: "#CCED31",
             width: "1em",
             height: "1em",
           },
         },
-        {
-          skillName: "Framer Motion",
-          fontAwesomeClassname: "logos:framer",
-          style: {
-            color: "#635BFF",
-            width: "1em",
-            height: "1em",
-          },
-        },
+        
         {
           skillName: "Styled Components",
           fontAwesomeClassname: "vscode-icons:file-type-styled",
           style: {
-            color: "#635BFF",
+            color: "#CCED31",
             width: "1em",
             height: "1em",
           },
@@ -144,88 +95,70 @@ const skills = {
           skillName: "Bootstrap",
           fontAwesomeClassname: "simple-icons:bootstrap",
           style: {
-            color: "#563d7c",
+            color: "#CCED31",
           },
         },
-        {
-          skillName: "Postman",
-          fontAwesomeClassname: "simple-icons:postman",
-          style: {
-            color: "#FF6C37",
-          },
-        },
+
         {
           skillName: "NPM",
           fontAwesomeClassname: "simple-icons:npm",
           style: {
-            color: "#CB3837",
+            color: "#CCED31",
           },
         },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#439743",
-          },
-        },
-        {
-          skillName: "Cloudinary",
-          fontAwesomeClassname: "logos:cloudinary-icon",
-          style: {
-            color: "#635BFF",
-            width: "1em",
-            height: "1em",
-          },
-        },
+        
         {
           skillName: "Stripe",
           fontAwesomeClassname: "logos:stripe",
           style: {
-            color: "#635BFF",
+            color: "##CCED31",
             width: "1em",
             height: "1em",
           },
         },
         {
-          skillName: "Java",
-          fontAwesomeClassname: "simple-icons:java",
+          skillName: "PayPal",
+          fontAwesomeClassname: "simple-icons:paypal",
           style: {
-            color: "#f89820",
+            color: "##CAED31",
+            width: "1em",
+            height: "1em",
+  
           },
         },
         {
           skillName: "MySQL",
           fontAwesomeClassname: "simple-icons:mysql",
           style: {
-            color: "#4479A1",
+            color: "#CCED31",
           },
         },
         {
           skillName: "PostgreSQL",
           fontAwesomeClassname: "simple-icons:postgresql",
           style: {
-            color: "#4479A1",
+            color: "#CCED31",
           },
         },
         {
           skillName: "Git",
           fontAwesomeClassname: "simple-icons:git",
           style: {
-            color: "#E94E32",
+            color: "#CCED31",
           },
         },
         {
           skillName: "C++",
           fontAwesomeClassname: "simple-icons:cplusplus",
           style: {
-            color: "#E94E32",
+            color: "#CCED31",
           },
         },
         {
           skillName: "Python",
           fontAwesomeClassname: "simple-icons:python",
           style: {
-            color: "#3776AB",
+            color: "#CCED31",
           },
         },
       ],
@@ -245,6 +178,7 @@ const skills = {
           fontAwesomeClassname: "skill-icons:gcp-dark",
           style: {
             backgroundColor: "transparent",
+            color: "##CCED31",
             width: "1em",
             height: "1em",
           },
@@ -253,18 +187,8 @@ const skills = {
           skillName: "Vercel",
           fontAwesomeClassname: "skill-icons:vercel-light",
           style: {
-            color: "gray",
             fill: "gray",
-            // backgroundColor: "white",
-            width: "1em",
-            height: "1em",
-          },
-        },
-        {
-          skillName: "Netlify",
-          fontAwesomeClassname: "simple-icons:netlify",
-          style: {
-            color: "#38AFBB",
+            color: "##CCED31",
             width: "1em",
             height: "1em",
           },
@@ -273,7 +197,7 @@ const skills = {
           skillName: "Heroku",
           fontAwesomeClassname: "simple-icons:heroku",
           style: {
-            color: "#6863A6",
+            color: "##CCED31",
             width: "1em",
             height: "1em",
           },
@@ -282,7 +206,7 @@ const skills = {
           skillName: "Firebase",
           fontAwesomeClassname: "simple-icons:firebase",
           style: {
-            color: "#FFCA28",
+            color: "##CCED31",
             width: "1em",
             height: "1em",
           },
@@ -291,7 +215,7 @@ const skills = {
           skillName: "PostgreSQL",
           fontAwesomeClassname: "simple-icons:postgresql",
           style: {
-            color: "#336791",
+            color: "#CCED31",
             width: "1em",
             height: "1em",
           },
@@ -300,23 +224,17 @@ const skills = {
           skillName: "MongoDB",
           fontAwesomeClassname: "simple-icons:mongodb",
           style: {
-            color: "#47A248",
+            color: "#CCED31",
             width: "1em",
             height: "1em",
           },
         },
-        // {
-        //   skillName: "Docker",
-        //   fontAwesomeClassname: "simple-icons:docker",
-        //   style: {
-        //     color: "#1488C6",
-        //   },
-        // },
+   
         {
           skillName: "GitHub Actions",
           fontAwesomeClassname: "simple-icons:githubactions",
           style: {
-            color: "#5b77ef",
+            color: "#CCED31",
             width: "1em",
             height: "1em",
           },
