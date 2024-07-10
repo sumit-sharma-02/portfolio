@@ -39,7 +39,7 @@ const skills = {
         "✔ Desenvolvimento e manutenção de websites personalizados para uso pessoal ou empresarial.",
         "✔ Criação e gestão de lojas online, oferecendo soluções de e-commerce personalizadas para maximizar as vendas e melhorar a experiência do cliente.",
         "✔ Desenvolvimento de websites para reservas, garantindo um sistema de agendamento eficiente e fácil de usar",
-        "✔ Desenvolvimento de pacotes de branding completos, incluindo design de logotipo, identidade visual, material de marketing e diretrizes de marca, para garantir uma presença consistente e profissional no mercado",
+        "✔ Desenvolvimento de branding completo, incluindo design de logotipo, identidade visual, material de marketing e diretrizes de marca, para garantir uma presença consistente e profissional.",
         "✔ Campanhas de Marketing Malucas",
       ],
       softwareSkills: [
@@ -109,13 +109,7 @@ const skills = {
             color: "#CCED31",
           },
         },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#CCED31",
-          },
-        },
+
         {
           skillName: "Git",
           fontAwesomeClassname: "simple-icons:git",
@@ -130,6 +124,7 @@ const skills = {
             color: "#CCED31",
           },
         },
+
         {
           skillName: "Python",
           fontAwesomeClassname: "simple-icons:python",
