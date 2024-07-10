@@ -36,10 +36,11 @@ const skills = {
       title: "Desenvolvimento Digital",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Desenvolvemos soluções de front-end e back-end altamente interativas para web",
-        "⚡ Construimos site de front-end responsivo em react",
-        "⚡ Criamos applicações de backend em Node, Express, MongoDB e API",
-        "⚡ Integração de serviços de terceiros como Firebase e Vercel",
+        "✔ Desenvolvimento e manutenção de websites personalizados para uso pessoal ou empresarial.",
+        "✔ Criação e gestão de lojas online, oferecendo soluções de e-commerce personalizadas para maximizar as vendas e melhorar a experiência do cliente.",
+        "✔ Desenvolvimento de websites para reservas, garantindo um sistema de agendamento eficiente e fácil de usar",
+        "✔ Desenvolvimento de pacotes de branding completos, incluindo design de logotipo, identidade visual, material de marketing e diretrizes de marca, para garantir uma presença consistente e profissional no mercado",
+        "✔ Campanhas de Marketing Malucas",
       ],
       softwareSkills: [
         {
@@ -58,39 +59,14 @@ const skills = {
           },
         },
         {
-          skillName: "jQuery",
-          fontAwesomeClassname: "simple-icons:jquery",
-          style: {
-            color: "#CCED31",
-          },
-        },
-        {
           skillName: "ReactJS",
           fontAwesomeClassname: "simple-icons:react",
           style: {
             color: "#CCED31",
           },
         },
-
-        {
-          skillName: "Tailwind CSS",
-          fontAwesomeClassname: "logos:tailwindcss-icon",
-          style: {
-            color: "#CCED31",
-            width: "1em",
-            height: "1em",
-          },
-        },
         
-        {
-          skillName: "Styled Components",
-          fontAwesomeClassname: "vscode-icons:file-type-styled",
-          style: {
-            color: "#CCED31",
-            width: "1em",
-            height: "1em",
-          },
-        },
+
         {
           skillName: "Bootstrap",
           fontAwesomeClassname: "simple-icons:bootstrap",
@@ -165,7 +141,7 @@ const skills = {
     },
     {
       _id: "c026fe64-1542-42b0-84ab-9311840c169f",
-      title: "Infra-Architecture",
+      title: "Equipa Experiente",
       fileName: "CloudInfraImg",
       skills: [
         "⚡ Experience working on multiple cloud platforms",
