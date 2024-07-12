@@ -33,7 +33,7 @@ const skills = {
   data: [
     {
       _id: "354c54b7-ffd8-40f1-972f-1d006733df25",
-      title: "Desenvolvimento Digital",
+      title: "Soluções Digitais",
       fileName: "FullStackImg",
       skills: [
         "✔ Desenvolvimento e manutenção de websites personalizados para uso pessoal ou empresarial.",
@@ -136,12 +136,13 @@ const skills = {
     },
     {
       _id: "c026fe64-1542-42b0-84ab-9311840c169f",
-      title: "Equipa Experiente",
+      title: "+ 40 CLIENTES SATISFEITOS",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Experience hosting and managing websites",
-        "⚡ Experience with Continuous Integration",
+        "⚡ 21 lojas criadas em shopify",
+        "⚡ 12 websites empresariais",
+        "⚡ 13 identidades visuais",
+        "⚡ 6 estratégias de marketing",
       ],
       softwareSkills: [
         {

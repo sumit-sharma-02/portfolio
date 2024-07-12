@@ -49,6 +49,7 @@ function SkillSection(props) {
                         >
                           {skillSentence}
                         </p>
+                        
                       );
                     })}
                   </div>
