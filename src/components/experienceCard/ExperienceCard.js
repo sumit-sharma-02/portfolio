@@ -5,6 +5,8 @@ import "./ExperienceCard.css";
 function ExperienceCard(props) {
   const experience = props.experience;
   const theme = props.theme;
+  const backgroundClass = `background-${experience.alt_name.toLowerCase().replace(/\s+/g, '-')}`;
+
   return (
     <Fade bottom duration={2000} distance="20px">
       <div className="experience-card-col experience-card-gap">
@@ -17,12 +19,12 @@ function ExperienceCard(props) {
               src={require(`../../assets/images/${experience.logo_path}`)}
               className="featured-image"
               alt={experience.alt_name}
+              
             />
           </div>
           <article
-            className="experience-card-body"
+            className={`experience-card-body ${backgroundClass}`}
             style={{
-              backgroundColor: theme.themeColor,
               color: theme.oppositeThemeColor,
             }}
           >
@@ -44,7 +46,9 @@ function ExperienceCard(props) {
               <a
                 href={experience.company_url}
                 target="_blank"
-                className="button_companypath">
+                rel="noopener noreferrer"
+                className="button_companypath"
+              >
                 VER
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -62,7 +66,6 @@ function ExperienceCard(props) {
                   <line x1="8" y1="21" x2="16" y2="21"></line>
                   <line x1="12" y1="17" x2="12" y2="21"></line>
                 </svg>
-
               </a>
             </header>
           </article>

@@ -130,9 +130,26 @@
 
 .experience-card-body {
   animation: 0.5s ease-out 0s 1 slideInFromLeft;
-  background: #333;
+  background-size: cover;
+  background-color: #1D1D1D;
   padding: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 200px; /* Adicionando uma altura mínima */
 }
+.background-bravery {
+  background-image: url('../../assets/images/teste.png');
+}
+.background-vela{
+  background-image: url('../../assets/images/vela1.png');
+}
+.background-flimp{
+  background-image: url('../../assets/images/flimp1.png');
+}
+
+
+
+
 
 .experience-card-body:hover {
   transform: scale(1);
