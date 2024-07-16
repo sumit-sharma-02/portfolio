@@ -60,17 +60,19 @@ export default function Greeting(props) {
                   }}
                 />
               </div>
-              <div className="portfolio-repo-btn-div">
-                <a
-                  {...styles}
-                  className="button"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href={greeting.resumeLink}
-                >
-                  Résumé
-                </a>
-              </div>
+              {greeting?.resumeLink && (
+                <div className="portfolio-repo-btn-div">
+                  <a
+                    {...styles}
+                    className="button"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href={greeting.resumeLink}
+                  >
+                    Résumé
+                  </a>
+                </div>
+              )}
             </div>
           </div>
           <div className="greeting-image-div">

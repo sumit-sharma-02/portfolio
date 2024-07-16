@@ -16,8 +16,8 @@ const greeting = {
   subTitle1: "Software Developer.",
   subTitle2: "Full Stack Developer.",
   subTitle: "Full Stack Developer, Life Long Learner.",
-  resumeLink:
-    "https://drive.google.com/file/d/1-SSCPhVG80IDtpx7_TPpsLfJyEA7NEtv/view?usp=drive_link",
+  // resumeLink:
+  //   "https://drive.google.com/file/d/1-SSCPhVG80IDtpx7_TPpsLfJyEA7NEtv/view?usp=drive_link",
   mail: "mailto:sumitsharma9968@gmail.com",
 };
 
@@ -561,9 +561,9 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work and Apprenticeship",
+  subtitle: "Work",
   description:
-    "I've over 3 years of experience as a Full Stack Developer. I've worked on building products for multiple stakeholders in Infosys and Ottonomy.",
+    "I've over 3+ years of experience as a Full Stack Developer. I've worked on building products for multiple stakeholders in Infosys, Ottonomy and Fractal.",
   header_image_path: "experience.svg",
   sections: {
     title: "Work Experience",
@@ -576,8 +576,8 @@ const experience = {
         alt_name: "fractal-logo",
         duration: "(April, 2024 - Present)",
         location: "Gurugram (Hybrid)",
-        description: "<li> Developed an application to extract data from PDFs to accumulate data into table and key-value pairs, significantly improving data processing efficiency. </li><br><li>Implemented a user-friendly interface allowing users to pivot data fields into tables or key-value pairs, enhancing data analysis capabilities. </li>",
-        color: "#ffffff"
+        // description: "<li> Developed an application to extract data from PDFs to accumulate data into table and key-value pairs, significantly improving data processing efficiency. </li><br><li>Implemented a user-friendly interface allowing users to pivot data fields into tables or key-value pairs, enhancing data analysis capabilities. </li>",
+        color: "#ffffff",
       },
       {
         title: "SDE 1",
@@ -587,7 +587,7 @@ const experience = {
         alt_name: "ottonomy-logo",
         duration: "(May, 2023 - April, 2024)",
         location: "Gurugram (Hybrid)",
-        description: "<li> Working on developing a media management software to schedule advertisements in the robot screens.</li><br><li>Working on optimizing E-commerce app and developing analytics dashboard for robots and orders.</li><br><li>Implemented socket to allow users to transfer the controlling of a robot to a different user.</li><br><li>Developed a dashboard to display live feed from robot with map, joystick controls to control the robot with robot commands.</li>",
+        // description: "<li> Working on developing a media management software to schedule advertisements in the robot screens.</li><br><li>Working on optimizing E-commerce app and developing analytics dashboard for robots and orders.</li><br><li>Implemented socket to allow users to transfer the controlling of a robot to a different user.</li><br><li>Developed a dashboard to display live feed from robot with map, joystick controls to control the robot with robot commands.</li>",
         color: "#000000",
       },
       {
@@ -598,9 +598,9 @@ const experience = {
         alt_name: "infosys-logo",
         duration: "(Aug, 2021 - May, 2023)",
         location: "Mysore (Remote)",
-        description: "<li> Created a PWA for educators, allowing them to create analogies with animations using HTML, CSS, JavaScript, and Fabric.js.</li><br><li>Enhanced the product, introduced new features like multiple content pages, audio, custom gradients, trigger-based animations using React.js.</li><br><li>Developed an web based AR/VR learning platform using Node, Express and socket for multi-user experience and other features like chat, screen, audio and video share for web based.</li><br><li>Developed 2 new tools with an intuitive design for interactive content creation using Angular</li>",
+        // description: "<li> Created a PWA for educators, allowing them to create analogies with animations using HTML, CSS, JavaScript, and Fabric.js.</li><br><li>Enhanced the product, introduced new features like multiple content pages, audio, custom gradients, trigger-based animations using React.js.</li><br><li>Developed an web based AR/VR learning platform using Node, Express and socket for multi-user experience and other features like chat, screen, audio and video share for web based.</li><br><li>Developed 2 new tools with an intuitive design for interactive content creation using Angular</li>",
         color: "#0071C5",
-      }
+      },
     ],
   },
 };
@@ -609,7 +609,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects make use of a vast variety of latest technology tools. My best experience is to create MERN and MEAN Stack Projects. Below are some of my projects.",
+    "My projects make use of a vast variety of latest technology tools. My best experience is to create MERN, MEAN and Django Full Stack Projects. Below are some of my projects.",
   avatar_image_path: "projects_image.svg",
 };
 

@@ -204,6 +204,10 @@ ul ol {
     height: auto;
     width: 300px;
   }
+
+  .experience-card-1 .experience-card-body {
+    height: 300px;
+  }
 }
 
 @media only screen and (max-width: 992px) {

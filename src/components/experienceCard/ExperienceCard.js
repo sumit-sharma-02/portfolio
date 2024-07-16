@@ -35,12 +35,14 @@ function ExperienceCard(props) {
                 <br />
                 <span className="author">{experience.duration}</span>
               </p>
-              <ol
-                className="experience-card-description"
-                dangerouslySetInnerHTML={{
-                  __html: experience.description,
-                }}
-              ></ol>
+              {experience?.description && (
+                <ol
+                  className="experience-card-description"
+                  dangerouslySetInnerHTML={{
+                    __html: experience.description,
+                  }}
+                ></ol>
+              )}
             </header>
           </article>
         </div>
