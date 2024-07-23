@@ -139,10 +139,10 @@ const skills = {
       title: "+ 40 CLIENTES SATISFEITOS",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ 21 lojas criadas em shopify",
-        "⚡ 12 websites empresariais",
-        "⚡ 13 identidades visuais",
-        "⚡ 6 estratégias de marketing",
+        " 21 lojas criadas em shopify",
+        " 12 websites empresariais",
+        " 13 identidades visuais",
+        " 6 estratégias de marketing",
       ],
       softwareSkills: [
         {
