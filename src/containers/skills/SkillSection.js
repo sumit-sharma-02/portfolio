@@ -7,13 +7,8 @@ import CloudInfraImg from "./CloudInfraImg";
 import "./Skills.css";
 // import DesignImg from "./DesignImg";
 
-function GetSkillSvg(props) {
-  if (props.fileName === "FullStackImg")
-    return <FullStackImg theme={props.theme} />;
-  else if (props.fileName === "CloudInfraImg")
-    return <CloudInfraImg theme={props.theme} />;
-  // return <DesignImg theme={props.theme} />;
-}
+import myImage from "../../assets/images/clients1.png";
+
 
 function SkillSection(props) {
   const theme = props.theme;
@@ -62,12 +57,12 @@ function SkillSection(props) {
             <div key={"skills-" + index} className="skills-main-div">
               <div className="skills-text-div">
                 <Fade left duration={1000}>
+                  <div></div>
                   <h1 className="skills-heading" style={{ color: theme.text }}>
                     {skill.title}
                   </h1>
                 </Fade>
                 <Fade left duration={1500}>
-                  <SoftwareSkill theme={theme} logos={skill.softwareSkills} />
                 </Fade>
                 <Fade left duration={2000}>
                   <div style={{ textAlign: "center" }}>
@@ -87,7 +82,7 @@ function SkillSection(props) {
               </div>
               <Fade right duration={2000}>
                 <div className="skills-image-div">
-                  <GetSkillSvg fileName={skill.fileName} theme={theme} />
+                <img src={myImage} alt="Skill" width="100" height="100" />
                 </div>
               </Fade>
             </div>

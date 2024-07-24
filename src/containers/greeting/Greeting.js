@@ -33,7 +33,7 @@ export default function Greeting(props) {
                 className="greeting-text-div subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                <span className="greeting-text-static">Somos </span>
+                <span className="greeting-text-static">Desenvolvemos</span>
                 <Typewriter
                   options={{
                     autoStart: true,
