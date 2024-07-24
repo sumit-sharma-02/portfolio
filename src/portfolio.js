@@ -36,11 +36,11 @@ const skills = {
       title: "Soluções Digitais",
       fileName: "FullStackImg",
       skills: [
-        "✔ Desenvolvimento e manutenção de websites personalizados para uso pessoal ou empresarial.",
-        "✔ Criação e gestão de lojas online, oferecendo soluções de e-commerce personalizadas para maximizar as vendas e melhorar a experiência do cliente.",
-        "✔ Desenvolvimento de websites para reservas, garantindo um sistema de agendamento eficiente e fácil de usar",
-        "✔ Desenvolvimento de branding completo, incluindo design de logotipo, identidade visual, material de marketing e diretrizes de marca, para garantir uma presença consistente e profissional.",
-        "✔ Campanhas de Marketing Malucas",
+        "✔ Desenvolvimento de websites personalizados para uso pessoal ou empresarial.",
+        "✔ Criação e gestão de lojas online para maximizar as vendas.",
+        "✔ Desenvolvimento de websites para reservas, garantindo agendamento eficiente e fácil.",
+        "✔ Desenvolvimento de branding completo para garantir presença consistente e profissional.",
+        "✔ Campanhas de Marketing para aumentar a presença online significativamente.",
       ],
       softwareSkills: [
         {
@@ -85,18 +85,50 @@ const skills = {
         
         {
           skillName: "Stripe",
-          fontAwesomeClassname: "logos:stripe",
+          fontAwesomeClassname: "simple-icons:stripe",
           style: {
-            color: "##CCED31",
+            color: "#CCED31",
             width: "1em",
             height: "1em",
+           
           },
+        },
+        {
+          skillName: "Shopify",
+          fontAwesomeClassname: "simple-icons:shopify",
+          style: {
+            color: "#CCED31",
+            width: "1em",
+            height: "1em",
+           
+          },
+        },
+        {
+          skillName: "azure",
+          fontAwesomeClassname: "simple-icons:visualstudio",
+          style: {
+            color: "#CCED31",
+            width: "1em",
+            height: "1em",
+           
+          },
+        },
+        {
+          skillName: "adobe",
+          fontAwesomeClassname: "simple-icons:adobe",
+          style: {
+            color: "#CCED31",
+            width: "1em",
+            height: "1em",
+           
+          },
+          
         },
         {
           skillName: "PayPal",
           fontAwesomeClassname: "simple-icons:paypal",
           style: {
-            color: "##CAED31",
+            color: "#CAED31",
             width: "1em",
             height: "1em",
   
