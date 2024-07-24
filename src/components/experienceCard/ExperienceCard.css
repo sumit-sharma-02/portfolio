@@ -146,7 +146,21 @@
 .background-flimp{
   background-image: url('../../assets/images/flimp1.png');
 }
-
+.background-ascp{
+  background-image: url('../../assets/images/ascp1.png');
+}
+.background-ssc{
+  background-image: url('../../assets/images/ssc1.png');
+}
+.background-principe{
+  background-image: url('../../assets/images/principe1.png');
+}
+.background-bea{
+  background-image: url('../../assets/images/bea1.png');
+}
+.background-string{
+  background-image: url('../../assets/images/string1.png');
+}
 
 
 

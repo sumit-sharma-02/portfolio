@@ -516,16 +516,76 @@ const experience = {
       },
       {
         title: "FLIMP AUTO",
-        company: "ECOMMERCE",
+        company: "E-COMMERCE",
         company_url: "https://flimpauto.com/",
         logo_path: "flimp.png",
         alt_name: "flimp",
         duration: "",
         location: "Mysore (Remote)",
-        description: "<li> Created a PWA for educators, allowing them to create analogies with animations using HTML, CSS, JavaScript, and Fabric.js.</li><br><li>Enhanced the product, introduced new features like multiple content pages, audio, custom gradients, trigger-based animations using React.js.</li><br><li>Developed an web based AR/VR learning platform using Node, Express and socket for multi-user experience and other features like chat, screen, audio and video share for web based.</li><br><li>Developed 2 new tools with an intuitive design for interactive content creation using Angular</li>",
+        description: "<li> Design e Desenvolvimento Personalizado: Criação de um design exclusivo e personalizado, alinhado à identidade da marca, seguido pela implementação no Shopify para garantir uma aparência profissional e funcionalidade intuitiva.</li><br><li>Integração de Funcionalidades E-commerce: Configuração e integração de todas as funcionalidades essenciais para e-commerce, incluindo carrinho de compras, métodos de pagamento seguros, gestão de inventário e opções de envio, garantindo uma experiência de compra fluida para os clientes.</li><br><li>Otimização para Conversão e SEO: Implementação de técnicas de otimização para motores de busca (SEO) e estratégias focadas na conversão para aumentar a visibilidade online e maximizar as vendas, incluindo a criação de páginas de produtos atraentes e rápidas.</li>",
         color: "#00000",
         background_path: "flimp1.png"
+      },
+      {
+        title: "COSTA DE PRATA",
+        company: "BRANDING",
+        company_url: "https://www.instagram.com/ascostaprata__?igsh=enVlaXVjdW1uM2Jl",
+        logo_path: "ascp.png",
+        alt_name: "ascp",
+        duration: "",
+        location: "",
+        description: "<li> Alinhamento com a Visão do Cliente: Trabalhamos em estreita colaboração com o cliente para entender e concretizar a sua visão, garantindo que o logotipo refletisse a identidade e os valores da Associação.</li><br><li>Incorporação de Elementos Locais: Incluímos o barco típico da Praia de Mira surfando uma onda, integrando elementos culturais e regionais que reforçam a conexão com a comunidade local.</li><br><li>Design Profissional e Sério: Desenvolvemos um logotipo com um design mais sério e profissional, adequado para a natureza da associação, garantindo uma aparência respeitável e confiável.</li>",
+        color: "#00000",
+        background_path: "ascp1.png"
+      },
+      {
+        title: "SILVER SURF CULTURE",
+        company: "BRANDING",
+        company_url: "https://www.instagram.com/silversurfculture?igsh=dXFldGJ3YTQ4a3I4",
+        logo_path: "silver.png",
+        alt_name: "ssc",
+        duration: "",
+        location: "",
+        description: "<li>Identidade Visual Distintiva: Criação de uma identidade visual única que reflete o estilo de vida e a cultura do surf com sofisticação.</li><br><li>Logotipo Icônico: Design de um logotipo memorável que captura a energia e a essência da Silver Surf Culture.</li><br><li>Branding Coeso: Implementação de uma estratégia de branding consistente em todas as plataformas e materiais de marketing.</li>",
+        color: "#00000",
+        background_path: "ssc1.png"
+      },
+      {
+        title: "PRÍNCIPE PORTO",
+        company: "E-COMMERCE",
+        company_url: "https://www.instagram.com/silversurfculture?igsh=dXFldGJ3YTQ4a3I4",
+        logo_path: "principe.png",
+        alt_name: "principe",
+        duration: "",
+        location: "",
+        description: "<li>Design Refletindo a Cultura Portuguesa: Criação de um design que incorpora elementos da cultura e tradição portuguesa, proporcionando uma experiência autêntica e única aos visitantes.</li><br><li>Desenvolvimento de Website Funcional e Intuitivo: Implementação de um site e-commerce profissional em Shopify, garantindo uma navegação intuitiva e uma experiência de compra agradável.</li><br><li>Coesão e Consistência Visual: Manutenção de uma identidade visual harmoniosa e consistente em todas as páginas do site, refletindo a elegância e o estilo da marca Príncipe Porto.</li>",
+        color: "#00000",
+        background_path: "principe1.png"
+      },
+      {
+        title: "BEATRIZ BRITES",
+        company: "BRANDING",
+        company_url: "https://www.instagram.com/silversurfculture?igsh=dXFldGJ3YTQ4a3I4",
+        logo_path: "bea.png",
+        alt_name: "bea",
+        duration: "",
+        location: "",
+        description: "<li>Design Refletindo a Cultura Portuguesa: Criação de um design que incorpora elementos da cultura e tradição portuguesa, proporcionando uma experiência autêntica e única aos visitantes.</li><br><li>Desenvolvimento de Website Funcional e Intuitivo: Implementação de um site e-commerce profissional em Shopify, garantindo uma navegação intuitiva e uma experiência de compra agradável.</li><br><li>Coesão e Consistência Visual: Manutenção de uma identidade visual harmoniosa e consistente em todas as páginas do site, refletindo a elegância e o estilo da marca Príncipe Porto.</li>",
+        color: "#00000",
+        background_path: "principe1.png"
+      },{
+        title: "STRINGLAB",
+        company: "BRANDING",
+        company_url: "https://www.instagram.com/silversurfculture?igsh=dXFldGJ3YTQ4a3I4",
+        logo_path: "string.png",
+        alt_name: "string",
+        duration: "",
+        location: "",
+        description: "<li>Design Refletindo a Cultura Portuguesa: Criação de um design que incorpora elementos da cultura e tradição portuguesa, proporcionando uma experiência autêntica e única aos visitantes.</li><br><li>Desenvolvimento de Website Funcional e Intuitivo: Implementação de um site e-commerce profissional em Shopify, garantindo uma navegação intuitiva e uma experiência de compra agradável.</li><br><li>Coesão e Consistência Visual: Manutenção de uma identidade visual harmoniosa e consistente em todas as páginas do site, refletindo a elegância e o estilo da marca Príncipe Porto.</li>",
+        color: "#00000",
+        background_path: "principe1.png"
       }
+
     ],
   },
 };
