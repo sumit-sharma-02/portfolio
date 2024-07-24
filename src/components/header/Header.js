@@ -27,9 +27,8 @@ function Header(props) {
     outline: "none",
     transition: "all 0.2s ease-in-out",
     ":hover": {
-      boxShadow: `0 3px 8px ${
-        props.theme.name === "light" ? "#CCED31" : "#646464"
-      }`,
+      boxShadow: `0 3px 8px ${props.theme.name === "light" ? "#CCED31" : "#646464"
+        }`,
     },
   });
 
@@ -67,20 +66,19 @@ function Header(props) {
   return (
     <Fade top duration={1000} distance="20px">
       <div
-        className={`${
-          props.theme.name === "light"
+        className={`${props.theme.name === "light"
             ? "header-container-light"
             : "header-container-dark"
-        }`}
+          }`}
       >
         <header className="header">
-  <NavLink to={link} tag={Link} className="logo">
-    <img src={logo} alt="Logo" className="logo-image" />
-  </NavLink>
-  <input className="menu-btn" type="checkbox" id="menu-btn" />
-  <label className="menu-icon" htmlFor="menu-btn">
-    <span className="navicon"></span>
-  </label>
+          <NavLink to={link} tag={Link} className="logo">
+            <img src={logo} alt="Logo" className="logo-image" />
+          </NavLink>
+          <input className="menu-btn" type="checkbox" id="menu-btn" />
+          <label className="menu-icon" htmlFor="menu-btn">
+            <span className="navicon"></span>
+          </label>
           <ul className="menu">
             <li className="homei-li">
               <NavLink
@@ -91,19 +89,10 @@ function Header(props) {
                 tag={Link}
                 style={{ color: theme.text }}
               >
-              Quem Somos
+                Quem Somos
               </NavLink>
             </li>
-            <li>
-              <NavLink
-                className={({ isActive }) => (isActive ? "current-link" : "ec")}
-                to="/education"
-                tag={Link}
-                style={{ color: theme.text }}
-              >
-                Serviços
-              </NavLink>
-            </li>
+
             <li>
               <NavLink
                 className={({ isActive }) => (isActive ? "current-link" : "xp")}
@@ -116,24 +105,12 @@ function Header(props) {
             </li>
             <li>
               <NavLink
-                className={({ isActive }) =>
-                  isActive ? "current-link" : "projects"
-                }
-                to="/projects"
-                tag={Link}
-                style={{ color: theme.text }}
-              >
-                Projects
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
                 className={({ isActive }) => (isActive ? "current-link" : "cr")}
                 to="/contact"
                 tag={Link}
                 style={{ color: theme.text }}
               >
-                Contact
+                Contacto
               </NavLink>
             </li>
             <button {...styles} onClick={changeTheme}>

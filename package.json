@@ -10,6 +10,7 @@
     "baseui": "^12.2.0",
     "bootstrap": "^5.2.3",
     "chart.js": "^4.2.0",
+    "framer-motion": "^11.3.17",
     "fs": "^0.0.1-security",
     "glamor": "^2.20.40",
     "graphql": "^15.8.0",

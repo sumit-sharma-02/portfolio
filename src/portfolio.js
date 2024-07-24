@@ -453,7 +453,7 @@ const experience = {
   title: "Projectos",
   subtitle: "",
   description:
-    " Alguns dos nossos projetos mais recentes e impactantes. Cada trabalho reflete nossa dedicação ao design de qualidade, criatividade inovadora e compromisso com a satisfação do cliente. Explore nossas criações e veja como podemos transformar suas ideias em realidade.",
+    " Alguns dos nossos projetos mais recentes e impactantes. Cada trabalho reflete a nossa dedicação ao design de qualidade, criatividade inovadora e compromisso com a satisfação do cliente. Explore as nossas criações e veja como podemos transformar as suas ideias em realidade.",
   header_image_path: "experience.svg",
   sections: {
     title: "Work Experience",
@@ -478,7 +478,7 @@ const experience = {
         alt_name: "vela",
         duration: "",
         location: "Gurugram (Hybrid)",
-        description: "<li> Desenvolvimento do Website em React: Design e implementação de um website moderno e dinâmico utilizando a tecnologia React, proporcionando uma experiência de usuário rápida e interativa.</li><br><li>Suporte e Otimização Pós-Lançamento: Monitoramento contínuo e otimização do website para garantir desempenho ideal e adaptação às necessidades dos usuários.</li>",
+        description: "<li> Desenvolvimento do Website em React: Design e implementação de um website moderno e dinâmico utilizando a tecnologia React, proporcionando uma experiência de utilizador rápida e interativa.</li><br><li>Suporte e Otimização Pós-Lançamento: Monitoramento contínuo e otimização do website para garantir desempenho ideal e adaptação às necessidades dos utilizadores.</li>",
         color: "#00000",
         background_path: "vela1.png"
       },
@@ -533,23 +533,23 @@ const experience = {
       {
         title: "BEATRIZ BRITES",
         company: "BRANDING",
-        company_url: "https://www.instagram.com/silversurfculture?igsh=dXFldGJ3YTQ4a3I4",
+        company_url: "https://www.instagram.com/md.beatriz.brites?igsh=MTJ1eTkwZXA1b3Rhbg==",
         logo_path: "bea.png",
         alt_name: "bea",
         duration: "",
         location: "",
-        description: "<li>Design Refletindo a Cultura Portuguesa: Criação de um design que incorpora elementos da cultura e tradição portuguesa, proporcionando uma experiência autêntica e única aos visitantes.</li><br><li>Desenvolvimento de Website Funcional e Intuitivo: Implementação de um site e-commerce profissional em Shopify, garantindo uma navegação intuitiva e uma experiência de compra agradável.</li><br><li>Coesão e Consistência Visual: Manutenção de uma identidade visual harmoniosa e consistente em todas as páginas do site, refletindo a elegância e o estilo da marca Príncipe Porto.</li>",
+        description: "<li>Identidade Visual Personalizada: Criação de uma identidade visual que reflete a personalidade e os valores da Drª Beatriz Brites.</li><br><li>Elementos Representativos: Integração de gráficos e símbolos que correspondem aos serviços oferecidos.</li>           <br><li>Consistência no Branding: Garantir uma imagem profissional e unificada em todos os materiais de branding.</li>",
         color: "#00000",
         background_path: "principe1.png"
       },{
         title: "STRINGLAB",
         company: "BRANDING",
-        company_url: "https://www.instagram.com/silversurfculture?igsh=dXFldGJ3YTQ4a3I4",
+        company_url: "https://www.instagram.com/stringlab_109?igsh=ZWIxcjJobXF5djN0",
         logo_path: "string.png",
         alt_name: "string",
         duration: "",
         location: "",
-        description: "<li>Design Refletindo a Cultura Portuguesa: Criação de um design que incorpora elementos da cultura e tradição portuguesa, proporcionando uma experiência autêntica e única aos visitantes.</li><br><li>Desenvolvimento de Website Funcional e Intuitivo: Implementação de um site e-commerce profissional em Shopify, garantindo uma navegação intuitiva e uma experiência de compra agradável.</li><br><li>Coesão e Consistência Visual: Manutenção de uma identidade visual harmoniosa e consistente em todas as páginas do site, refletindo a elegância e o estilo da marca Príncipe Porto.</li>",
+        description: "<li>Realização da Visão do Cliente: Criação do logotipo exatamente conforme idealizado pelo cliente, garantindo que suas expectativas e visão fossem totalmente atendidas.</li><br><li>Design Alinhado à Identidade Musical: Desenvolvimento de um logotipo que incorpora elementos musicais, refletindo a essência e o foco da StringLab em instrumentos de cordas.</li><br><li>Identidade Visual Coesa: Assegurar que o logotipo e todos os materiais de branding mantenham uma coesão visual, proporcionando uma imagem profissional e harmoniosa para a escola de música.</li>",
         color: "#00000",
         background_path: "principe1.png"
       }
