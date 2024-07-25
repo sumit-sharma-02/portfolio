@@ -36,10 +36,10 @@ const skills = {
       title: "Soluções Digitais",
       fileName: "FullStackImg",
       skills: [
-        "✔ Desenvolvimento de websites personalizados para uso pessoal ou empresarial.",
-        "✔ Criação e gestão de lojas online para maximizar as vendas.",
-        "✔ Desenvolvimento de websites para reservas, garantindo agendamento eficiente e fácil.",
-        "✔ Desenvolvimento de branding completo para garantir presença consistente e profissional.",
+        "✰ Desenvolvimento de websites personalizados para uso pessoal ou empresarial. ✰",
+        "❰ Criação e gestão de lojas online para maximizar as vendas. ❱",
+        " ❖ Desenvolvimento de websites para reservas, garantindo agendamento eficiente e fácil. ❖",
+        "⚊ Desenvolvimento de branding completo para garantir presença consistente e profissional.⚊",
         "✔ Campanhas de Marketing para aumentar a presença online significativamente.",
       ],
       softwareSkills: [
@@ -134,13 +134,7 @@ const skills = {
   
           },
         },
-        {
-          skillName: "MySQL",
-          fontAwesomeClassname: "simple-icons:mysql",
-          style: {
-            color: "#CCED31",
-          },
-        },
+        
 
         {
           skillName: "Git",

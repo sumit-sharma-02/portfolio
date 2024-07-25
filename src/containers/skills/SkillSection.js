@@ -48,8 +48,10 @@ function SkillSection(props) {
                       );
                     })}
                   </div>
+                  
                 </Fade>
               </div>
+              
             </div>
           );
         } else {
@@ -85,11 +87,33 @@ function SkillSection(props) {
                 <img src={myImage} alt="Skill" width="100" height="100" />
                 </div>
               </Fade>
+              
             </div>
+            
           );
         }
       })}
+
+
+      <div class="card">
+  <div class="banner">
+    <span class="banner-text">SUBSCRIBE</span>
+    <span class="banner-text">JOIN US</span>
+  </div>
+  <span class="card__title">Quer ser contactado?</span>
+  <p class="card__subtitle">insira os deus dados e o nosso comercial vai entrar em contacto sem compromisso.</p>
+  <form class="card__form">
+    <input placeholder="email" type="email" required="" />
+    <input placeholder="telemovel" type="email" required="" />
+    <input placeholder="nome" type="email" required="" />
+    <input placeholder="motivo" type="email" required="" />
+    <button class="sign-up">Sign up</button>
+  </form>
+</div>
+
     </div>
+  
+    
   );
 }
 
