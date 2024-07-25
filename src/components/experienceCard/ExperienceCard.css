@@ -162,7 +162,19 @@
   background-image: url('../../assets/images/string1.png');
 }
 
-
+.button_companypath.disabled {
+  cursor: default;
+  pointer-events: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 40px;
+  width: 300px;
+  border-radius: 32px;
+  font-weight: bolder;
+  text-decoration: none;
+  text-transform: uppercase;
+}
 
 
 .experience-card-body:hover {
