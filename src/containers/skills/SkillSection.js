@@ -819,7 +819,7 @@ function SkillSection(props) {
               <strong>E-commerce:</strong>
               <ul>
                 <li>Desenvolvimento de lojas virtuais completas, com carrinho de compras, gateway de pagamento e gestão de estoque.</li>
-                <li>Implementação de sistemas de análise e relatórios de vendas.</li>
+                <li>Implementação de sistemas de análise e relatórios de vendass.</li>
               </ul>
             </li>
           </ul>
