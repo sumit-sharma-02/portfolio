@@ -23,7 +23,7 @@
   margin: 1rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .footer-section h4 {
@@ -35,21 +35,23 @@
 .footer-contact ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 .footer-menu ul li,
 .footer-contact ul li {
-  margin-bottom: 0.5rem;
+  margin: 0;
+  padding: 0;
 }
 
-.footer-menu ul li a,
+.footer-section ul li a,
 .footer-contact ul li a {
   color: #b6d109;
   text-decoration: none;
   transition: color 0.3s;
 }
 
-.footer-menu ul li a:hover,
+.footer-section ul li a:hover,
 .footer-contact ul li a:hover {
   color: #CCED00;
 }
@@ -70,30 +72,83 @@
   margin-top: 2rem;
   text-decoration: none;
 }
-.footer-section ul{
+
+.footer-section ul {
   text-decoration: none;
   list-style-type: none;
   margin-block: 0 !important;
+  padding-inline-start: 0;
 }
-.footer-section ul li a{
+
+.footer-section ul li {
+  margin: 0;
+  padding: 0;
+  max-height: 30px;
+}
+
+.footer-section ul li a {
   text-decoration: none;
   color: white;
 }
+
+
+
+/* Adicionando a linha verde abaixo do item ativo no primeiro ul */
+.footer-menu ul li a.current-link {
+  position: relative;
+  font-weight: bolder;
+  margin: 0; /* Remove a margem adicional */
+}
+
+.footer-menu ul li a.current-link::after {
+  content: "";
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  height: 0.05em;
+  bottom: 0;
+  width: 100%;
+  background-color: #b6d109;
+  transition: all ease-in-out 280ms;
+}
+
+.footer-menu ul li a:hover::after {
+  width: 100%;
+}
+
+/* Adicionando o efeito de escala em hover apenas para o primeiro ul */
+.footer-section ul li:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+
+ .zaask-logo:hover,
+ .footer-map iframe:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+
+
 
 .footer-map iframe {
   width: 100%;
   max-width: 300px;
   height: 200px;
 }
+span{
+  font-size: 1.3rem;
+  font-weight: bold;
+}
 
 @media (min-width: 768px) {
   .footer-content {
     flex-direction: row;
     justify-content: space-around;
-    align-items: flex-start; /* Ensure all items align at the top */
+    align-items: flex-start;
   }
-  
+
   .footer-section {
-    align-items: flex-start; /* Align text to the top */
+    align-items: flex-start;
   }
 }
