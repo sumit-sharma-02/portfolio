@@ -34,14 +34,14 @@ const skills = {
     {
       _id: "354c54b7-ffd8-40f1-972f-1d006733df25",
       title: "Soluções Digitais",
-      fileName: "FullStackImg",
-      skills: [
+      fileName: "FullStackImg", 
+      skills: [/*
         "✰ Desenvolvimento de websites personalizados para uso pessoal ou empresarial. ✰",
         "❰ Criação e gestão de lojas online para maximizar as vendas. ❱",
         " ❖ Desenvolvimento de websites para reservas, garantindo agendamento eficiente e fácil. ❖",
         "⚊ Desenvolvimento de branding completo para garantir presença consistente e profissional.⚊",
-        "✔ Campanhas de Marketing para aumentar a presença online significativamente.",
-      ],
+        "✔ Campanhas de Marketing para aumentar a presença online significativamente.",*/  
+      ], 
       softwareSkills: [
         {
           skillName: "HTML5",
@@ -93,6 +93,7 @@ const skills = {
            
           },
         },
+
         {
           skillName: "Shopify",
           fontAwesomeClassname: "simple-icons:shopify",
