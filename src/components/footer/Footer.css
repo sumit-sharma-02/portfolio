@@ -67,8 +67,17 @@
 .footer-text {
   text-align: center;
   font-weight: bold;
-  font-family: "Google Sans Regular";
   margin-top: 2rem;
+  text-decoration: none;
+}
+.footer-section ul{
+  text-decoration: none;
+  list-style-type: none;
+  margin-block: 0 !important;
+}
+.footer-section ul li a{
+  text-decoration: none;
+  color: white;
 }
 
 .footer-map iframe {
