@@ -2,403 +2,150 @@ import React from "react";
 import { skills } from "../../portfolio";
 import { Fade } from "react-reveal";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
-import FullStackImg from "./FullStackImg";
-import CloudInfraImg from "./CloudInfraImg";
 import "./Skills.css";
-import myImage from "../../assets/images/clients1.png";
+import myImage from "../../assets/images/david1a.jpg";
+import myimage2 from "../../assets/images/joao1a.jpg"
 
 function SkillSection(props) {
   const theme = props.theme;
   return (
     <div>
+     
       {skills.data.map((skill, index) => {
         if (index % 2 === 0) {
           return (
+            
             <div key={"skills-" + index} className="skills-main-div">
               { /* <Fade left duration={2000}>
                 <div className="skills-image-div">
                   <GetSkillSvg fileName={skill.fileName} theme={theme} />
                 </div>
               </Fade> */ }
+              
               <div className="skills-text-div">
-                <Fade right duration={1000}>
-                  <h1 className="skills-heading" style={{ color: theme.text }}>
-                    {skill.title}
-                  </h1>
-                </Fade>
-                <Fade right duration={1500}>
-                  <SoftwareSkill theme={theme} logos={skill.softwareSkills} />
-                </Fade>
+
                 
-<section className="accordion">
+              
+                <div>
+   <h1 className="SD12">SOLUÇÕES DIGITAIS</h1>
+      <div className="accordion">
+        <article>
+          <input id="article1" type="radio" name="articles" defaultChecked />
+          <label htmlFor="article1">
+            <h2 className="sites1">•  E-COMMERCE</h2>
+          </label>
+          <div>
+          Nosso serviço de e-commerce oferece soluções completas para sua loja online. Desenvolvemos plataformas personalizadas, otimizadas para conversão, com design responsivo e integrações seguras. Aumente suas vendas com uma experiência de compra fluida, gestão eficiente de produtos e suporte contínuo. Transforme visitantes em clientes fiéis.
+          </div> 
+        </article> 
+        
+
+        <article>
+          <input id="article2" type="radio" name="articles" />
+          <label htmlFor="article2">
+            <h2 className="sites1">•  SITES</h2>
+          </label>
+          <div>
+          Oferecemos criação de sites modernos e responsivos, adaptados às necessidades do seu negócio. Desenvolvemos sites intuitivos, com design atraente e navegação eficiente. Nossa equipe garante performance otimizada, SEO amigável e suporte contínuo. Estabeleça sua presença online de forma profissional e atraia mais clientes.
+          </div>
+        </article>
+
+        <article>
+          <input id="article3" type="radio" name="articles" />
+          <label htmlFor="article3">
+            <h2 className="sites1">•  MARKETING</h2>
+          </label>
+          <div>
+          Maximize sua visibilidade com nossas estratégias de marketing digital. Especializados em Google Ads e campanhas em redes sociais, impulsionamos seu alcance e engajamento. Analisamos e otimizamos anúncios para garantir resultados efetivos, aumentando conversões e ROI. Atraia e retenha clientes com marketing direcionado e eficiente.
+          </div>
+        </article>
+
+        <article>
+          <input id="article4" type="radio" name="articles" />
+          <label htmlFor="article4">
+            <h2 className="sites1">•  BRANDING</h2>
+          </label>
+          <div>
+          Destaque-se no mercado com nosso serviço de branding. Criamos identidades visuais impactantes e coerentes, refletindo a essência do seu negócio. Desenvolvemos logotipos, paletas de cores e materiais de comunicação que fortalecem sua marca. Construa uma presença sólida e memorável, conquistando a lealdade de seus clientes.
+          </div>
+        </article>
+      </div>
+    </div>
+
+
+    <div>
+<h1 className="SD123">QUEM SOMOS</h1>
+<h3>Dois jovens autodidatas com mais de cinco anos de colaboração, são a força por trás de um negócio de soluções digitais inovadoras. 
+  Juntos, desenvolveram mais de 50 projetos, combinando suas habilidades em tecnologia e design para criar produtos digitais de alto impacto. 
+  Sua dedicação e expertise transformam ideias em soluções eficientes, destacando-se no mercado pela criatividade e qualidade.</h3>
+<div className="equipa">
+<main>
+      <div className="card">
+      <img src={myimage2} alt="Descrição da Imagem" />
+        <div className="card-content">
+          <h2>João Teixeira</h2>
+          <p>
+          Autodidata em tecnologia, João é especialista em desenvolvimento de software, trazendo inovação e eficiência para cada projeto.
+          </p>
   
-      <div className="tab">
-        <input type="checkbox" name="accordion-1" id="cb1" defaultChecked />
-        <label htmlFor="cb1" className="tab__label">
-         <strong> Desenvolvimento de websites personalizados para uso pessoal ou empresarial.</strong>
-        </label>
-        <div className="tab__content">
-          
-          <ul>
-            <li>
-              <strong>Design Personalizado:</strong>
-              <ul>
-                <li>Desenvolvimento de layout exclusivo e atraente, alinhado à identidade visual do cliente.</li>
-                <li>Uso de tecnologias modernas para garantir uma experiência de usuário agradável.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>Funcionalidades Sob Medida:</strong>
-              <ul>
-                <li>Integração de funcionalidades específicas conforme a necessidade do cliente (e-commerce, blogs, portfólios, etc.).</li>
-                <li>Desenvolvimento de formulários de contato, galerias de imagens, mapas interativos, entre outros.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>Responsividade:</strong>
-              <ul>
-                <li>Design adaptativo para garantir uma experiência de navegação otimizada em dispositivos móveis, tablets e desktops.</li>
-                <li>Testes em diferentes resoluções e navegadores para assegurar a compatibilidade.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>SEO (Otimização para Motores de Busca):</strong>
-              <ul>
-                <li>Implementação de técnicas de SEO on-page para melhorar a visibilidade do site nos motores de busca.</li>
-                <li>Análise e otimização de conteúdo, palavras-chave, meta tags e URLs amigáveis.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>Desempenho e Segurança:</strong>
-              <ul>
-                <li>Otimização de carregamento de página para garantir velocidade e desempenho.</li>
-                <li>Implementação de medidas de segurança, incluindo certificados SSL e proteção contra ataques.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>Manutenção e Suporte:</strong>
-              <ul>
-                <li>Planos de manutenção contínua para garantir que o site esteja sempre atualizado e seguro.</li>
-                <li>Suporte técnico disponível para resolver quaisquer problemas ou implementar novas funcionalidades.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>Integração com Redes Sociais:</strong>
-              <ul>
-                <li>Conexão com perfis de redes sociais para aumentar a interação e alcance.</li>
-                <li>Implementação de botões de compartilhamento e feeds de redes sociais no site.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>Sistema de Gerenciamento de Conteúdo (CMS):</strong>
-              <ul>
-                <li>Integração de CMS (como WordPress, Joomla, etc.) para facilitar a atualização e gestão de conteúdo pelo próprio cliente.</li>
-                <li>Treinamento para o cliente sobre como utilizar o CMS e fazer atualizações.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>E-commerce:</strong>
-              <ul>
-                <li>Desenvolvimento de lojas virtuais completas, com carrinho de compras, gateway de pagamento e gestão de estoque.</li>
-                <li>Implementação de sistemas de análise e relatórios de vendas.</li>
-              </ul>
-            </li>
-          </ul>
         </div>
       </div>
-      <div className="tab">
-        <input type="checkbox" name="accordion-1" id="cb2" />
-        <label htmlFor="cb2" className="tab__label">
-          Criação e gestão de lojas online para maximizar as vendas.
-        </label>
-        <div className="tab__content"><h2>Benefícios e Características</h2>
-          <ul>
-            <li>
-              <strong>Design Personalizado:</strong>
-              <ul>
-                <li>Desenvolvimento de layout exclusivo e atraente, alinhado à identidade visual do cliente.</li>
-                <li>Uso de tecnologias modernas para garantir uma experiência de usuário agradável.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>Funcionalidades Sob Medida:</strong>
-              <ul>
-                <li>Integração de funcionalidades específicas conforme a necessidade do cliente (e-commerce, blogs, portfólios, etc.).</li>
-                <li>Desenvolvimento de formulários de contato, galerias de imagens, mapas interativos, entre outros.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>Responsividade:</strong>
-              <ul>
-                <li>Design adaptativo para garantir uma experiência de navegação otimizada em dispositivos móveis, tablets e desktops.</li>
-                <li>Testes em diferentes resoluções e navegadores para assegurar a compatibilidade.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>SEO (Otimização para Motores de Busca):</strong>
-              <ul>
-                <li>Implementação de técnicas de SEO on-page para melhorar a visibilidade do site nos motores de busca.</li>
-                <li>Análise e otimização de conteúdo, palavras-chave, meta tags e URLs amigáveis.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>Desempenho e Segurança:</strong>
-              <ul>
-                <li>Otimização de carregamento de página para garantir velocidade e desempenho.</li>
-                <li>Implementação de medidas de segurança, incluindo certificados SSL e proteção contra ataques.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>Manutenção e Suporte:</strong>
-              <ul>
-                <li>Planos de manutenção contínua para garantir que o site esteja sempre atualizado e seguro.</li>
-                <li>Suporte técnico disponível para resolver quaisquer problemas ou implementar novas funcionalidades.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>Integração com Redes Sociais:</strong>
-              <ul>
-                <li>Conexão com perfis de redes sociais para aumentar a interação e alcance.</li>
-                <li>Implementação de botões de compartilhamento e feeds de redes sociais no site.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>Sistema de Gerenciamento de Conteúdo (CMS):</strong>
-              <ul>
-                <li>Integração de CMS (como WordPress, Joomla, etc.) para facilitar a atualização e gestão de conteúdo pelo próprio cliente.</li>
-                <li>Treinamento para o cliente sobre como utilizar o CMS e fazer atualizações.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>E-commerce:</strong>
-              <ul>
-                <li>Desenvolvimento de lojas virtuais completas, com carrinho de compras, gateway de pagamento e gestão de estoque.</li>
-                <li>Implementação de sistemas de análise e relatórios de vendas.</li>
-              </ul>
-            </li>
-          </ul>
+      <div className="card">
+      <img src={myimage2} alt="Descrição da Imagem" />
+        <div className="card-content">
+          <h2>David Claro</h2>
+          <p>
+          Designer talentoso, David transforma conceitos em interfaces intuitivas e atraentes, elevando a experiência do usuário em cada solução digital.
+          </p>
+
         </div>
       </div>
-      <div className="tab">
-        <input type="checkbox" name="accordion-1" id="cb3" />
-        <label htmlFor="cb3" className="tab__label">
-          Desenvolvimento de aplicações web avançadas.
-        </label>
-        <div className="tab__content"><h2>Benefícios e Características</h2>
-          <ul>
-            <li>
-              <strong>Design Personalizado:</strong>
-              <ul>
-                <li>Desenvolvimento de layout exclusivo e atraente, alinhado à identidade visual do cliente.</li>
-                <li>Uso de tecnologias modernas para garantir uma experiência de usuário agradável.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>Funcionalidades Sob Medida:</strong>
-              <ul>
-                <li>Integração de funcionalidades específicas conforme a necessidade do cliente (e-commerce, blogs, portfólios, etc.).</li>
-                <li>Desenvolvimento de formulários de contato, galerias de imagens, mapas interativos, entre outros.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>Responsividade:</strong>
-              <ul>
-                <li>Design adaptativo para garantir uma experiência de navegação otimizada em dispositivos móveis, tablets e desktops.</li>
-                <li>Testes em diferentes resoluções e navegadores para assegurar a compatibilidade.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>SEO (Otimização para Motores de Busca):</strong>
-              <ul>
-                <li>Implementação de técnicas de SEO on-page para melhorar a visibilidade do site nos motores de busca.</li>
-                <li>Análise e otimização de conteúdo, palavras-chave, meta tags e URLs amigáveis.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>Desempenho e Segurança:</strong>
-              <ul>
-                <li>Otimização de carregamento de página para garantir velocidade e desempenho.</li>
-                <li>Implementação de medidas de segurança, incluindo certificados SSL e proteção contra ataques.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>Manutenção e Suporte:</strong>
-              <ul>
-                <li>Planos de manutenção contínua para garantir que o site esteja sempre atualizado e seguro.</li>
-                <li>Suporte técnico disponível para resolver quaisquer problemas ou implementar novas funcionalidades.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>Integração com Redes Sociais:</strong>
-              <ul>
-                <li>Conexão com perfis de redes sociais para aumentar a interação e alcance.</li>
-                <li>Implementação de botões de compartilhamento e feeds de redes sociais no site.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>Sistema de Gerenciamento de Conteúdo (CMS):</strong>
-              <ul>
-                <li>Integração de CMS (como WordPress, Joomla, etc.) para facilitar a atualização e gestão de conteúdo pelo próprio cliente.</li>
-                <li>Treinamento para o cliente sobre como utilizar o CMS e fazer atualizações.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>E-commerce:</strong>
-              <ul>
-                <li>Desenvolvimento de lojas virtuais completas, com carrinho de compras, gateway de pagamento e gestão de estoque.</li>
-                <li>Implementação de sistemas de análise e relatórios de vendas.</li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div className="tab">
-        <input type="checkbox" name="accordion-1" id="cb4" />
-        <label htmlFor="cb4" className="tab__label">
-          Consultoria em tecnologia da informação.
-        </label>
-        <div className="tab__content"><h2>Benefícios e Características</h2>
-          <ul>
-            <li>
-              <strong>Design Personalizado:</strong>
-              <ul>
-                <li>Desenvolvimento de layout exclusivo e atraente, alinhado à identidade visual do cliente.</li>
-                <li>Uso de tecnologias modernas para garantir uma experiência de usuário agradável.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>Funcionalidades Sob Medida:</strong>
-              <ul>
-                <li>Integração de funcionalidades específicas conforme a necessidade do cliente (e-commerce, blogs, portfólios, etc.).</li>
-                <li>Desenvolvimento de formulários de contato, galerias de imagens, mapas interativos, entre outros.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>Responsividade:</strong>
-              <ul>
-                <li>Design adaptativo para garantir uma experiência de navegação otimizada em dispositivos móveis, tablets e desktops.</li>
-                <li>Testes em diferentes resoluções e navegadores para assegurar a compatibilidade.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>SEO (Otimização para Motores de Busca):</strong>
-              <ul>
-                <li>Implementação de técnicas de SEO on-page para melhorar a visibilidade do site nos motores de busca.</li>
-                <li>Análise e otimização de conteúdo, palavras-chave, meta tags e URLs amigáveis.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>Desempenho e Segurança:</strong>
-              <ul>
-                <li>Otimização de carregamento de página para garantir velocidade e desempenho.</li>
-                <li>Implementação de medidas de segurança, incluindo certificados SSL e proteção contra ataques.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>Manutenção e Suporte:</strong>
-              <ul>
-                <li>Planos de manutenção contínua para garantir que o site esteja sempre atualizado e seguro.</li>
-                <li>Suporte técnico disponível para resolver quaisquer problemas ou implementar novas funcionalidades.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>Integração com Redes Sociais:</strong>
-              <ul>
-                <li>Conexão com perfis de redes sociais para aumentar a interação e alcance.</li>
-                <li>Implementação de botões de compartilhamento e feeds de redes sociais no site.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>Sistema de Gerenciamento de Conteúdo (CMS):</strong>
-              <ul>
-                <li>Integração de CMS (como WordPress, Joomla, etc.) para facilitar a atualização e gestão de conteúdo pelo próprio cliente.</li>
-                <li>Treinamento para o cliente sobre como utilizar o CMS e fazer atualizações.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>E-commerce:</strong>
-              <ul>
-                <li>Desenvolvimento de lojas virtuais completas, com carrinho de compras, gateway de pagamento e gestão de estoque.</li>
-                <li>Implementação de sistemas de análise e relatórios de vendas.</li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div className="tab">
-        <input type="checkbox" name="accordion-1" id="cb5" />
-        <label htmlFor="cb5" className="tab__label">
-          Suporte e manutenção contínua de websites.
-        </label>
-        <div className="tab__content"><h2>Benefícios e Características</h2>
-          <ul>
-            <li>
-              <strong>Design Personalizado:</strong>
-              <ul>
-                <li>Desenvolvimento de layout exclusivo e atraente, alinhado à identidade visual do cliente.</li>
-                <li>Uso de tecnologias modernas para garantir uma experiência de usuário agradável.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>Funcionalidades Sob Medida:</strong>
-              <ul>
-                <li>Integração de funcionalidades específicas conforme a necessidade do cliente (e-commerce, blogs, portfólios, etc.).</li>
-                <li>Desenvolvimento de formulários de contato, galerias de imagens, mapas interativos, entre outros.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>Responsividade:</strong>
-              <ul>
-                <li>Design adaptativo para garantir uma experiência de navegação otimizada em dispositivos móveis, tablets e desktops.</li>
-                <li>Testes em diferentes resoluções e navegadores para assegurar a compatibilidade.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>SEO (Otimização para Motores de Busca):</strong>
-              <ul>
-                <li>Implementação de técnicas de SEO on-page para melhorar a visibilidade do site nos motores de busca.</li>
-                <li>Análise e otimização de conteúdo, palavras-chave, meta tags e URLs amigáveis.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>Desempenho e Segurança:</strong>
-              <ul>
-                <li>Otimização de carregamento de página para garantir velocidade e desempenho.</li>
-                <li>Implementação de medidas de segurança, incluindo certificados SSL e proteção contra ataques.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>Manutenção e Suporte:</strong>
-              <ul>
-                <li>Planos de manutenção contínua para garantir que o site esteja sempre atualizado e seguro.</li>
-                <li>Suporte técnico disponível para resolver quaisquer problemas ou implementar novas funcionalidades.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>Integração com Redes Sociais:</strong>
-              <ul>
-                <li>Conexão com perfis de redes sociais para aumentar a interação e alcance.</li>
-                <li>Implementação de botões de compartilhamento e feeds de redes sociais no site.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>Sistema de Gerenciamento de Conteúdo (CMS):</strong>
-              <ul>
-                <li>Integração de CMS (como WordPress, Joomla, etc.) para facilitar a atualização e gestão de conteúdo pelo próprio cliente.</li>
-                <li>Treinamento para o cliente sobre como utilizar o CMS e fazer atualizações.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>E-commerce:</strong>
-              <ul>
-                <li>Desenvolvimento de lojas virtuais completas, com carrinho de compras, gateway de pagamento e gestão de estoque.</li>
-                <li>Implementação de sistemas de análise e relatórios de vendas.</li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
+    </main>
+    </div>
+    
+    
+
+    </div>
+    <div>
+<h1 className="SD12">O QUE JÁ FIZEMOS</h1>
+<h3>Dois jovens autodidatas com mais de cinco anos de colaboração, são a força por trás de um negócio de soluções digitais inovadoras. 
+  Juntos, desenvolveram mais de 50 projetos, combinando suas habilidades em tecnologia e design para criar produtos digitais de alto impacto. 
+  Sua dedicação e expertise transformam ideias em soluções eficientes, destacando-se no mercado pela criatividade e qualidade.</h3>
+<div className="equipa">
+<main>
+<div class="row">
+  <div class="column">
+    <div class="card">
+<h2>34</h2>
+
+    </div>
+    
+  </div>
+  <div class="column">
+    <div class="card">
+    <h2>34</h2>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+    <h2>34</h2>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+    <h2>34</h2>
+    <h3>Estratégias criadas</h3>
+    </div>
+  </div>
+</div>
+    </main>
+    </div>
+    
+    
+
+    </div>
+    
+                
 
                 <Fade right duration={2000}>
                   <div style={{ textAlign: "center" }}>
@@ -459,6 +206,7 @@ function SkillSection(props) {
 
 
     </div>
+    
   );
 }
 
