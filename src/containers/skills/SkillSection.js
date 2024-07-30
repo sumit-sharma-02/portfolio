@@ -112,7 +112,7 @@ function SkillSection(props) {
   Juntos, desenvolveram mais de 50 projetos, combinando suas habilidades em tecnologia e design para criar produtos digitais de alto impacto. 
   Sua dedicação e expertise transformam ideias em soluções eficientes, destacando-se no mercado pela criatividade e qualidade.</h3>
 <div className="equipa">
-<main>
+<main className="main3">
 <div class="row">
   <div class="column">
     <div class="card">
