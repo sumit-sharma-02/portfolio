@@ -371,3 +371,10 @@ input[type="radio"]:checked ~ div {
     margin-bottom: 20px;
   }
 }
+
+.icon {
+  margin-right: 5rem; /* Ajuste este valor conforme necessário */
+
+  width: 3rem;
+  height: auto;
+}

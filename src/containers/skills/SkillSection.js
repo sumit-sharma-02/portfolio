@@ -4,7 +4,8 @@ import { Fade } from "react-reveal";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import "./Skills.css";
 import myImage from "../../assets/images/david1a.jpg";
-import myimage2 from "../../assets/images/joao1a.jpg"
+import myimage2 from"../../assets/images/david1a.jpg";
+import ecom from "../../assets/images/ecom.png";
 
 function SkillSection(props) {
   const theme = props.theme;
@@ -32,7 +33,10 @@ function SkillSection(props) {
         <article>
           <input id="article1" type="radio" name="articles" defaultChecked />
           <label htmlFor="article1">
-            <h2 className="sites1">•  E-COMMERCE</h2>
+          <h2 className="sites1">
+          <img src={ecom} alt="Descrição da Imagem" className="icon" />
+        •  E-COMMERCE
+      </h2>
           </label>
           <div>
           Nosso serviço de e-commerce oferece soluções completas para sua loja online. Desenvolvemos plataformas personalizadas, otimizadas para conversão, com design responsivo e integrações seguras. Aumente suas vendas com uma experiência de compra fluida, gestão eficiente de produtos e suporte contínuo. Transforme visitantes em clientes fiéis.
@@ -75,9 +79,11 @@ function SkillSection(props) {
 
     <div>
 <h1 className="SD123">QUEM SOMOS</h1>
-<h3>Dois jovens autodidatas com mais de cinco anos de colaboração, são a força por trás de um negócio de soluções digitais inovadoras. 
-  Juntos, desenvolveram mais de 50 projetos, combinando suas habilidades em tecnologia e design para criar produtos digitais de alto impacto. 
-  Sua dedicação e expertise transformam ideias em soluções eficientes, destacando-se no mercado pela criatividade e qualidade.</h3>
+<h3>Somos uma equipa dinâmica de apaixonados por desenvolvimento de soluções digitais. Com uma experiência sólida em criação de sites, e-commerce, marketing digital e branding, já realizamos mais de 40 projetos, cada um deles contribuindo para o aperfeiçoamento contínuo dos nossos serviços. </h3>
+
+<h3>O nosso compromisso é entregar soluções inovadoras e personalizadas que impulsionem os negócios e projetos dos nossos clientes. Cada projeto é uma nova oportunidade para superar expectativas e alcançar resultados excepcionais. </h3>
+
+<h3>Deixe-nos transformar suas ideias em realidade digital com eficiência e criatividade.</h3>
 <div className="equipa">
 <main>
       <div className="card">
