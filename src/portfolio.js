@@ -36,24 +36,59 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Develop highly interactive user interfaces and backend for web applications",
-        "⚡ Building responsive website front end using React and Angular",
-        "⚡ Creating application backend in Node, Express, MongoDB and Rest API",
-        "⚡ Integration of third party services such as Firebase, Vercel etc.",
+        "⚡ Develop highly interactive user interfaces and seamless backend integration for high-performance web applications.",
+        "⚡ Built responsive and accessible frontends using modern frameworks like React.js and Next.js",
+        "⚡ Developed robust and scalable backends using Django, Node.js, Express, Snowflake, SQL, and MongoDB.",
+        "⚡ Integration of AWS services such as AWS Lambda, S3, serverless functions and secrets manager.",
       ],
       softwareSkills: [
         {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
+          skillName: "React.js",
+          fontAwesomeClassname: "simple-icons:react",
           style: {
-            color: "#E34F26",
+            color: "#61DAFB",
           },
         },
         {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
+          skillName: "Next.js",
+          fontAwesomeClassname: "logos:nextjs-icon",
           style: {
-            color: "#1572B6",
+            color: "#000000",
+          },
+        },
+        {
+          skillName: "Redux",
+          fontAwesomeClassname: "simple-icons:redux",
+          style: {
+            color: "#593D88",
+          },
+        },
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "logos:python",
+          style: {
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Django",
+          fontAwesomeClassname: "simple-icons:django",
+          style: {
+            color: "#0e3b2c",
+          },
+        },
+        {
+          skillName: "Snowflake",
+          fontAwesomeClassname: "logos:snowflake-icon",
+          style: {
+            color: "#439743",
+          },
+        },
+        {
+          skillName: "AWS",
+          fontAwesomeClassname: "logos:aws",
+          style: {
+            color: "#f4f2ed",
           },
         },
         {
@@ -72,29 +107,8 @@ const skills = {
           },
         },
         {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "Redux",
-          fontAwesomeClassname: "simple-icons:redux",
-          style: {
-            color: "#593D88",
-          },
-        },
-        {
-          skillName: "Angular",
-          fontAwesomeClassname: "simple-icons:angular",
-          style: {
-            color: "#dd0031",
-          },
-        },
-        {
           skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          fontAwesomeClassname: "logos:nodejs-icon",
           style: {
             color: "#339933",
           },
@@ -104,6 +118,41 @@ const skills = {
           fontAwesomeClassname: "simple-icons:express",
           style: {
             color: "gray",
+          },
+        },
+        {
+          skillName: "MySQL",
+          fontAwesomeClassname: "simple-icons:mysql",
+          style: {
+            color: "#4479A1",
+          },
+        },
+        {
+          skillName: "PostgreSQL",
+          fontAwesomeClassname: "simple-icons:postgresql",
+          style: {
+            color: "#4479A1",
+          },
+        },
+        {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "simple-icons:mongodb",
+          style: {
+            color: "#439743",
+          },
+        },
+        {
+          skillName: "HTML5",
+          fontAwesomeClassname: "simple-icons:html5",
+          style: {
+            color: "#E34F26",
+          },
+        },
+        {
+          skillName: "CSS3",
+          fontAwesomeClassname: "fa-css3",
+          style: {
+            color: "#1572B6",
           },
         },
         {
@@ -162,13 +211,6 @@ const skills = {
           },
         },
         {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#439743",
-          },
-        },
-        {
           skillName: "Cloudinary",
           fontAwesomeClassname: "logos:cloudinary-icon",
           style: {
@@ -187,47 +229,12 @@ const skills = {
           },
         },
         {
-          skillName: "Java",
-          fontAwesomeClassname: "simple-icons:java",
-          style: {
-            color: "#f89820",
-          },
-        },
-        {
-          skillName: "MySQL",
-          fontAwesomeClassname: "simple-icons:mysql",
-          style: {
-            color: "#4479A1",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#4479A1",
-          },
-        },
-        {
           skillName: "Git",
           fontAwesomeClassname: "simple-icons:git",
           style: {
             color: "#E94E32",
           },
-        },
-        {
-          skillName: "C++",
-          fontAwesomeClassname: "simple-icons:cplusplus",
-          style: {
-            color: "#E94E32",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "simple-icons:python",
-          style: {
-            color: "#3776AB",
-          },
-        },
+        }
       ],
     },
     {
@@ -235,16 +242,54 @@ const skills = {
       title: "Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Experience hosting and managing websites",
-        "⚡ Experience with Continuous Integration",
+        "⚡ Experience in deploying and managing applications across multiple cloud platforms, including AWS, Firebase and Vercel.",
+        "⚡ Experience implementing Continuous Integration (CI) pipelines for streamlined development.",
       ],
       softwareSkills: [
         {
-          skillName: "Google Cloud Platform",
-          fontAwesomeClassname: "skill-icons:gcp-dark",
+          skillName: "AWS",
+          fontAwesomeClassname: "logos:aws",
           style: {
-            backgroundColor: "transparent",
+            color: "#f4f2ed",
+          },
+        },
+        {
+          skillName: "Snowflake",
+          fontAwesomeClassname: "logos:snowflake-icon",
+          style: {
+            color: "#439743",
+          },
+        },
+        {
+          skillName: "PostgreSQL",
+          fontAwesomeClassname: "simple-icons:postgresql",
+          style: {
+            color: "#336791",
+            width: "1em",
+            height: "1em",
+          },
+        },
+        {
+          skillName: "MongoDB Atlas",
+          fontAwesomeClassname: "simple-icons:mongodb",
+          style: {
+            color: "#47A248",
+            width: "1em",
+            height: "1em",
+          },
+        },
+        {
+          skillName: "Docker",
+          fontAwesomeClassname: "simple-icons:docker",
+          style: {
+            color: "#1488C6",
+          },
+        },
+        {
+          skillName: "GitHub Actions",
+          fontAwesomeClassname: "simple-icons:githubactions",
+          style: {
+            color: "#5b77ef",
             width: "1em",
             height: "1em",
           },
@@ -261,62 +306,10 @@ const skills = {
           },
         },
         {
-          skillName: "Netlify",
-          fontAwesomeClassname: "simple-icons:netlify",
-          style: {
-            color: "#38AFBB",
-            width: "1em",
-            height: "1em",
-          },
-        },
-        {
-          skillName: "Heroku",
-          fontAwesomeClassname: "simple-icons:heroku",
-          style: {
-            color: "#6863A6",
-            width: "1em",
-            height: "1em",
-          },
-        },
-        {
           skillName: "Firebase",
           fontAwesomeClassname: "simple-icons:firebase",
           style: {
             color: "#FFCA28",
-            width: "1em",
-            height: "1em",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-            width: "1em",
-            height: "1em",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-            width: "1em",
-            height: "1em",
-          },
-        },
-        // {
-        //   skillName: "Docker",
-        //   fontAwesomeClassname: "simple-icons:docker",
-        //   style: {
-        //     color: "#1488C6",
-        //   },
-        // },
-        {
-          skillName: "GitHub Actions",
-          fontAwesomeClassname: "simple-icons:githubactions",
-          style: {
-            color: "#5b77ef",
             width: "1em",
             height: "1em",
           },
@@ -561,9 +554,9 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work",
+  subtitle: "Career Highlights",
   description:
-    "I've over 3+ years of experience as a Full Stack Developer. I've worked on building products for multiple stakeholders in Infosys, Ottonomy and Fractal.",
+    "With over 4+ years of experience as a Full Stack Developer, I have built scalable, user-centric products for diverse stakeholders at Infosys, Ottonomy, and Fractal. My work spans multiple domains including Robotics, CPG(Consumer Packaged Goods), Retail, and Education.",
   header_image_path: "experience.svg",
   sections: {
     title: "Work Experience",
@@ -575,8 +568,8 @@ const experience = {
         logo_path: "fractal-logo.jpg",
         alt_name: "fractal-logo",
         duration: "(April, 2024 - Present)",
-        location: "Gurugram (Hybrid)",
-        // description: "<li> Developed an application to extract data from PDFs to accumulate data into table and key-value pairs, significantly improving data processing efficiency. </li><br><li>Implemented a user-friendly interface allowing users to pivot data fields into tables or key-value pairs, enhancing data analysis capabilities. </li>",
+        location: "Gurugram (Remote)",
+        // description: "<li> Developed so and so things.... </li><br><li>Implemented so and so things.... </li>",
         color: "#ffffff",
       },
       {
@@ -587,7 +580,7 @@ const experience = {
         alt_name: "ottonomy-logo",
         duration: "(May, 2023 - April, 2024)",
         location: "Gurugram (Hybrid)",
-        // description: "<li> Working on developing a media management software to schedule advertisements in the robot screens.</li><br><li>Working on optimizing E-commerce app and developing analytics dashboard for robots and orders.</li><br><li>Implemented socket to allow users to transfer the controlling of a robot to a different user.</li><br><li>Developed a dashboard to display live feed from robot with map, joystick controls to control the robot with robot commands.</li>",
+        // description: "<li> Developed so and so things.... </li><br><li>Implemented so and so things.... </li>",
         color: "#000000",
       },
       {
@@ -598,7 +591,7 @@ const experience = {
         alt_name: "infosys-logo",
         duration: "(Aug, 2021 - May, 2023)",
         location: "Mysore (Remote)",
-        // description: "<li> Created a PWA for educators, allowing them to create analogies with animations using HTML, CSS, JavaScript, and Fabric.js.</li><br><li>Enhanced the product, introduced new features like multiple content pages, audio, custom gradients, trigger-based animations using React.js.</li><br><li>Developed an web based AR/VR learning platform using Node, Express and socket for multi-user experience and other features like chat, screen, audio and video share for web based.</li><br><li>Developed 2 new tools with an intuitive design for interactive content creation using Angular</li>",
+        // description: "<li> Developed so and so things.... </li><br><li>Implemented so and so things.... </li>",
         color: "#0071C5",
       },
     ],
@@ -609,7 +602,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects make use of a vast variety of latest technology tools. My best experience is to create MERN, MEAN and Django Full Stack Projects. Below are some of my projects.",
+    "My projects leverage a wide range of modern technologies, with a strong emphasis on building robust and scalable full-stack applications. My core expertise lies in developing MERN (MongoDB, Express, React, Node.js) and Django-based full stack projects. Below are some of the key projects I’ve worked on.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -617,6 +610,39 @@ const projects = {
   data: [
     {
       id: "project-0",
+      name: "Portfolio",
+      url: "",
+      repoUrl: "https://github.com/sumit-sharma-02/sumit-portfolio",
+      description: "You are watching it right now 😉.",
+      languages: [
+        {
+          name: "React",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "React Reveal",
+          iconifyClass: "simple-icons:scrollreveal",
+        },
+        {
+          name: "Styled Components",
+          iconifyClass: "vscode-icons:file-type-styled",
+        },
+      ],
+    },
+    {
+      id: "project-1",
       name: "Crafty Commerce",
       url: "https://crafty-commerce.vercel.app/",
       repoUrl: "https://github.com/sumit-sharma-02/crafty-commerce",
@@ -662,7 +688,21 @@ const projects = {
       ],
     },
     {
-      id: "project-1",
+      id: "project-2",
+      name: "Little Lemon Restaurant",
+      url: "https://little-lemon-restaurant-sumit-sharma-02.vercel.app/",
+      repoUrl: "https://github.com/sumit-sharma-02/little-lemon-restaurant",
+      description:
+        "Final capstone project for Meta Front-end developer program on Coursera, which contains a detailed and responsive website with table-booking functionality built using React.",
+      languages: [
+        {
+          name: "React",
+          iconifyClass: "logos:react",
+        }
+      ],
+    },
+    {
+      id: "project-3",
       name: "Tikkaway",
       url: "https://restaurant-app-bceb0.web.app/",
       repoUrl: "https://github.com/sumit-sharma-02/tikkaway",
@@ -692,7 +732,29 @@ const projects = {
       ],
     },
     {
-      id: "project-2",
+      id: "project-4",
+      name: "SpaceX Capsules",
+      url: "https://spacex-capsules.vercel.app/",
+      repoUrl: "https://github.com/sumit-sharma-02/spacex-capsules",
+      description:
+        "A React application which shows you the filtered spaceX capsules data.",
+      languages: [
+        {
+          name: "React",
+          iconifyClass: "logos:react",
+        },
+        {
+          name: "Redux",
+          iconifyClass: "logos:redux",
+        },
+        {
+          name: "Tailwind",
+          iconifyClass: "vscode-icons:file-type-tailwind",
+        },
+      ],
+    },
+    {
+      id: "project-5",
       name: "MEAN Agency",
       url: "",
       repoUrl: "https://github.com/sumit-sharma-02/mean-agency",
@@ -725,86 +787,6 @@ const projects = {
         },
       ],
     },
-    {
-      id: "project-3",
-      name: "Countdown Timer",
-      url: "https://countdown-timer-sumit-sharma-02.vercel.app/",
-      repoUrl: "https://github.com/sumit-sharma-02/countdown-timer",
-      description: "A Simple React App for countdown to new year using hooks.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "React",
-          iconifyClass: "logos-react",
-        },
-      ],
-    },
-    {
-      id: "project-4",
-      name: "Portfolio",
-      url: "",
-      repoUrl: "https://github.com/sumit-sharma-02/sumit-portfolio",
-      description: "You are watching it right now 😉.",
-      languages: [
-        {
-          name: "React",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "React Reveal",
-          iconifyClass: "simple-icons:scrollreveal",
-        },
-        {
-          name: "Styled Components",
-          iconifyClass: "vscode-icons:file-type-styled",
-        },
-      ],
-    },
-    {
-      id: "project-5",
-      name: "SpaceX Capsules",
-      url: "https://spacex-capsules.vercel.app/",
-      repoUrl: "https://github.com/sumit-sharma-02/spacex-capsules",
-      description:
-        "A React application which shows you the filtered spaceX capsules data.",
-      languages: [
-        {
-          name: "React",
-          iconifyClass: "logos:react",
-        },
-        {
-          name: "Redux",
-          iconifyClass: "logos:redux",
-        },
-        {
-          name: "Tailwind",
-          iconifyClass: "vscode-icons:file-type-tailwind",
-        },
-      ],
-    },
   ],
 };
 
@@ -814,7 +796,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "portfolioProfileImage.png",
     description:
-      "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
+      "Feel free to reach out through any of the channels listed below — I’ll get back to you as promptly as possible.",
   },
 };
 
