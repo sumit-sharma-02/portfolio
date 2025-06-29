@@ -351,6 +351,33 @@ const degrees = {
 const certifications = {
   certifications: [
     {
+      title: "Fractal Data Science",
+      subtitle: "",
+      logo_path: "fractal-logo.jpg",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/specialization/T0I5BS0WV9T2",
+      alt_name: "Fractal",
+      color_code: "#ffffff"
+    },
+    {
+      title: "SQL Developer Associate",
+      subtitle: "",
+      logo_path: "fractal-logo.jpg",
+      certificate_link:
+        "https://www.credential.net/a4f742e4-872c-4657-a49d-ccd81646d870#acc.dvtcMsQJ",
+      alt_name: "Fractal",
+      color_code: "#ffffff"
+    },
+    {
+      title: "Generative AI for Developers",
+      subtitle: "",
+      logo_path: "fractal-logo.jpg",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/specialization/8U6OUJR37YLB",
+      alt_name: "Fractal",
+      color_code: "#ffffff"
+    },
+    {
       title: "IBM Full Stack Software Developer",
       subtitle: "",
       logo_path: "ibm_logo.jpg",
@@ -569,7 +596,8 @@ const experience = {
         alt_name: "fractal-logo",
         duration: "(April, 2024 - Present)",
         location: "Gurugram (Remote)",
-        // description: "<li> Developed so and so things.... </li><br><li>Implemented so and so things.... </li>",
+        description: "Working on creating products under CPG and Retail Domain.",
+        // description: "<li> Developed so and so things.... </li><br><li>Implemented so and so things.... </li>", // For Bullet Points
         color: "#ffffff",
       },
       {
@@ -580,7 +608,7 @@ const experience = {
         alt_name: "ottonomy-logo",
         duration: "(May, 2023 - April, 2024)",
         location: "Gurugram (Hybrid)",
-        // description: "<li> Developed so and so things.... </li><br><li>Implemented so and so things.... </li>",
+        description: "Worked on creating various products under Robotics Domain such as E-com app to place orders via robots, app to schedule various advertisements on robots display and app to operate the robot with joystick controller.",
         color: "#000000",
       },
       {
@@ -591,7 +619,7 @@ const experience = {
         alt_name: "infosys-logo",
         duration: "(Aug, 2021 - May, 2023)",
         location: "Mysore (Remote)",
-        // description: "<li> Developed so and so things.... </li><br><li>Implemented so and so things.... </li>",
+        description: "Worked on creating products under Education domain to enhance learner's user experience in learning something online by adding hover-based, trigger-based animations or to add illustrations for certain analogies.",
         color: "#0071C5",
       },
     ],
